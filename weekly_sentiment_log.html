@@ -106,20 +106,34 @@
         font-size: 18px;
         display: none;
     }
+        .about-link {
+        font-size: 14px;
+        text-decoration: none;
+        color: #0077cc;
+        margin-right: 15px;
+    }
+    .dark-mode .about-link {
+        color: #6EC6FF;
+    }
+
     </style>
 </head>
 <body>
     <div class="theme-toggle-wrapper">
-        <span>Dark Mode</span>
-        <div class="theme-toggle" onclick="toggleTheme()">
-            <div class="knob">
-                <div class="icon moon">🌙</div>
-            </div>
+    <a href="https://tomtom.atlassian.net/wiki/spaces/AMERAUT/pages/629628168/Automotive+News+Dashboard"
+       target="_blank"
+       class="about-link">About</a>
+    <span style="margin-left: 20px;">Dark Mode</span>
+    <div class="theme-toggle" onclick="toggleTheme()">
+        <div class="knob">
+            <div class="icon moon">🌙</div>
         </div>
     </div>
+</div>
+
 
     <h1>America's Auto News – 2025-06-16</h1>
-    <p>Average Sentiment this week: <b>0.033</b> 😐</p>
+    <p>Average Sentiment this week: <b>0.139</b> 😐</p>
 
     <div class='top-articles'>
         <h2>📈 Top 3 Positive Articles</h2>
@@ -128,7 +142,7 @@
 
     <div class='bottom-articles'>
         <h2>📉 Top 3 Negative Articles</h2>
-        <div class='article-blocks'><li class='article-item'><b>Tesla</b>: This Model Y Killer Is Getting Closer In The Rearview Mirror With Tesla Sales Already Under Pressure - Investor's Business Daily<br><a href='https://news.google.com/rss/articles/CBMigAFBVV95cUxQcU5aTkQwOTNNcXlHNlowcWlEVm9nRDFkaDcxZjNUZzMtcEkwZmIwV2YxV3h0MndzTW5PY051dThWcVFidXh3WlhlYldDZm1hZzFCMVdqV2dELWpmanNHTjRtRHZBczl2Z25JU1A5MThUMzRXaVpTM2VheGR2MWZfMQ?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.896)</span></li><li class='article-item'><b>Nissan</b>: Nissan Launches Killer Frontier Lease Deal for June - autoblog.com<br><a href='https://news.google.com/rss/articles/CBMidEFVX3lxTFBZcVJLMFJaY1ZQVnVmRzc0TkZuYm1pX2NZYVIySnZtV2l4aWZFRW5NMGxlNHowdFBXSWwwRXRTSFp1UnRmR2xlT0NVeTF4NUJxb2pBcEZndUp3S2twMnJVMUFLRlJwUlI2dFpSMEpaXzZLbGN4?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.863)</span></li><li class='article-item'><b>Nissan</b>: Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info) - Seeking Alpha<br><a href='https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXhiTzlGanh4dWV3YzltaHEtVXB4bVlFaXY5dnBTUUluWGl0eEpWUHpLMTdIZTVLc3ZkN0VBUjI1Z2hTeUUzdTRGSW45VFpvZWYwUkx1WkFCR3hJN0lubXhBUkhLOXEzZkN1RHFPbklLakFwZHV4emwwbUdReGl0ckg3V3hJSFNETjVpWVd3UG1uLS1vNXcxQTdtdEZyb19rNmlhbHdJS0RTbnBlRE9V?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.718)</span></li></div>
+        <div class='article-blocks'><li class='article-item'><b>Nissan</b>: Nissan Launches Killer Frontier Lease Deal for June - autoblog.com<br><a href='https://news.google.com/rss/articles/CBMidEFVX3lxTFBZcVJLMFJaY1ZQVnVmRzc0TkZuYm1pX2NZYVIySnZtV2l4aWZFRW5NMGxlNHowdFBXSWwwRXRTSFp1UnRmR2xlT0NVeTF4NUJxb2pBcEZndUp3S2twMnJVMUFLRlJwUlI2dFpSMEpaXzZLbGN4?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.863)</span></li><li class='article-item'><b>Harley-Davidson</b>: Harley rider hospitalized after crash involving big rig, major injuries - KMPH<br><a href='https://news.google.com/rss/articles/CBMimwFBVV95cUxOa0QzRFVrTC1SMkdmVlE2NmhLNzFyNEhraGV3bXdKNlZkVFhSRmxuOFhVanNiQmd3TmNqYWUxYWZaaHBhZDlDMDhjcFZmZFRjTE8wS0lleFhRNGRTc29qam8yZk9wUmQwMmdZMGRTdW56UDdsTVFucUxJM2FVNE9USkVpZW5pNnEwQXVDSW5hUW56NXZFV0RmaFJHaw?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.751)</span></li><li class='article-item'><b>Nissan</b>: Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info) - Seeking Alpha<br><a href='https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXhiTzlGanh4dWV3YzltaHEtVXB4bVlFaXY5dnBTUUluWGl0eEpWUHpLMTdIZTVLc3ZkN0VBUjI1Z2hTeUUzdTRGSW45VFpvZWYwUkx1WkFCR3hJN0lubXhBUkhLOXEzZkN1RHFPbklLakFwZHV4emwwbUdReGl0ckg3V3hJSFNETjVpWVd3UG1uLS1vNXcxQTdtdEZyb19rNmlhbHdJS0RTbnBlRE9V?oc=5' target='_blank'>Full article</a> <span class='sentiment'>(-0.718)</span></li></div>
     </div>
 
     <h2>🏎️ Average Sentiment Per Company</h2>
@@ -136,7 +150,7 @@
     
     <table class='table-sm sentiment-table' border='0'>
     <thead><tr><th>Company</th><th>Avg Weekly Sentiment</th><th>Quarterly Revenue Growth</th><th>Next Earnings Date</th></tr></thead>
-    <tbody><tr><td>Subaru</td><td style='text-align:center'>0.751</td><td style='text-align:center'><span style='color:red'>6.0%</span></td><td style='text-align:center'>2025-10-30</td></tr><tr><td>Visteon</td><td style='text-align:center'>0.406</td><td style='text-align:center'><span style='color:red'>0.5%</span></td><td style='text-align:center'>2025-10-22</td></tr><tr><td>GM</td><td style='text-align:center'>0.351</td><td style='text-align:center'><span style='color:red'>7.7%</span></td><td style='text-align:center'>2025-10-20</td></tr><tr><td>Qualcomm</td><td style='text-align:center'>0.347</td><td style='text-align:center'><span style='color:red'>5.9%</span></td><td style='text-align:center'>2025-11-04</td></tr><tr><td>Nvidia</td><td style='text-align:center'>0.284</td><td style='text-align:center'><span style='color:green'>12.0%</span></td><td style='text-align:center'>2025-11-18</td></tr><tr><td>Honda</td><td style='text-align:center'>0.182</td><td style='text-align:center'><span style='color:green'>2.6%</span></td><td style='text-align:center'>2025-11-03</td></tr><tr><td>Rivian</td><td style='text-align:center'>0.178</td><td style='text-align:center'><span style='color:red'>28.5%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Harley-Davidson</td><td style='text-align:center'>0.071</td><td style='text-align:center'><span style='color:green'>93.3%</span></td><td style='text-align:center'>2025-10-22</td></tr><tr><td>Lucid</td><td style='text-align:center'>0.032</td><td style='text-align:center'><span style='color:green'>0.2%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Polaris</td><td style='text-align:center'>0.0</td><td style='text-align:center'><span style='color:red'>12.5%</span></td><td style='text-align:center'>2025-07-22</td></tr><tr><td>Ford</td><td style='text-align:center'>0.0</td><td style='text-align:center'><span style='color:red'>15.7%</span></td><td style='text-align:center'>2025-10-27</td></tr><tr><td>Mitsubishi</td><td style='text-align:center'>0.0</td><td style='text-align:center'><span style='color:red'>5.5%</span></td><td style='text-align:center'>2025-10-29</td></tr><tr><td>Toyota</td><td style='text-align:center'>-0.036</td><td style='text-align:center'><span style='color:green'>8.3%</span></td><td style='text-align:center'>2025-11-03</td></tr><tr><td>Tesla</td><td style='text-align:center'>-0.249</td><td style='text-align:center'><span style='color:red'>24.8%</span></td><td style='text-align:center'>2025-10-21</td></tr><tr><td>Nissan</td><td style='text-align:center'>-0.325</td><td style='text-align:center'><span style='color:green'>13.1%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Stellantis</td><td style='text-align:center'>-0.626</td><td style='text-align:center'>N/A</td><td style='text-align:center'>2025-07-24</td></tr></tbody>
+    <tbody><tr><td>Visteon</td><td style='text-align:center'>0.813</td><td style='text-align:center'><span style='color:red'>0.5%</span></td><td style='text-align:center'>2025-10-22</td></tr><tr><td>Subaru</td><td style='text-align:center'>0.376</td><td style='text-align:center'><span style='color:red'>6.0%</span></td><td style='text-align:center'>2025-10-30</td></tr><tr><td>GM</td><td style='text-align:center'>0.338</td><td style='text-align:center'><span style='color:red'>7.7%</span></td><td style='text-align:center'>2025-10-20</td></tr><tr><td>Mitsubishi</td><td style='text-align:center'>0.332</td><td style='text-align:center'><span style='color:red'>5.5%</span></td><td style='text-align:center'>2025-10-29</td></tr><tr><td>Nvidia</td><td style='text-align:center'>0.331</td><td style='text-align:center'><span style='color:green'>12.0%</span></td><td style='text-align:center'>2025-11-18</td></tr><tr><td>Qualcomm</td><td style='text-align:center'>0.256</td><td style='text-align:center'><span style='color:red'>5.9%</span></td><td style='text-align:center'>2025-11-04</td></tr><tr><td>Honda</td><td style='text-align:center'>0.244</td><td style='text-align:center'><span style='color:green'>2.6%</span></td><td style='text-align:center'>2025-11-03</td></tr><tr><td>Polaris</td><td style='text-align:center'>0.16</td><td style='text-align:center'><span style='color:red'>12.5%</span></td><td style='text-align:center'>2025-07-22</td></tr><tr><td>Rivian</td><td style='text-align:center'>0.143</td><td style='text-align:center'><span style='color:red'>28.5%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Tesla</td><td style='text-align:center'>0.114</td><td style='text-align:center'><span style='color:red'>24.8%</span></td><td style='text-align:center'>2025-10-21</td></tr><tr><td>Ford</td><td style='text-align:center'>0.077</td><td style='text-align:center'><span style='color:red'>15.7%</span></td><td style='text-align:center'>2025-10-27</td></tr><tr><td>Lucid</td><td style='text-align:center'>-0.016</td><td style='text-align:center'><span style='color:green'>0.2%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Stellantis</td><td style='text-align:center'>-0.025</td><td style='text-align:center'>N/A</td><td style='text-align:center'>2025-07-24</td></tr><tr><td>Toyota</td><td style='text-align:center'>-0.057</td><td style='text-align:center'><span style='color:green'>8.3%</span></td><td style='text-align:center'>2025-11-03</td></tr><tr><td>Nissan</td><td style='text-align:center'>-0.091</td><td style='text-align:center'><span style='color:green'>13.1%</span></td><td style='text-align:center'>2025-11-05</td></tr><tr><td>Harley-Davidson</td><td style='text-align:center'>-0.107</td><td style='text-align:center'><span style='color:green'>93.3%</span></td><td style='text-align:center'>2025-10-22</td></tr></tbody>
     </table>
     
 
@@ -156,17 +170,17 @@
   </thead>
   <tbody>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Ford</td>
-      <td>Ford Motor Company (F): The Stock Was Held Back, Says Jim Cramer - MSN</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcHY2Z0ZPWHNUMXZnNV9YM1hZSExmWDNFRF9SY1NmWG9wMFBqZU9tUmlsek1UVHVVNk9jZ0FsRU9TQXNGLVAtQ0dCS1ZMZ2hPeXRvTTNDTGhkWndCa0ZURFVIZ01wcllFd1NuWExaMFJNVUdkSXluYmt0YUJCajVZaDl3cU44WDFGVWNackZLd2tnaVVmcU1OS1RoZjVONW5fOWgyWDdNZHZra1U1U1VnQnFia3hNVGRUdW5qck52VUR0UnZYaHU2RVNpU2FKLVhPN0lSbQ?oc=5" target="_blank">Ford Motor Company (F): The Stock Was Held Back, Says Jim Cramer</a>&nbsp;&nbsp;<font color="#6f6f6f">MSN</font></td>
-      <td>0.000</td>
+      <td>Ford Motor Company Mexico Sales Up One Percent In May 2025 - Ford Authority</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRzFscWxQTUpxTXZOcDBMYkVTMEV0UmZWUWhzbEZmSUduRk9kY0F5UUlVVVFLcEJINWVKSmNqUmdqdHFYdmp1TGFaMUk2TG16VUF0NWx6Mks3SDhyeXpYWmVwNFhJY3ZuVmZGYVhESllYclRIbmVQTkVTaFY3MVNqUnNZZTU3LVhRLVpj0gGQAUFVX3lxTE5fWXV3UVplMUZySlhUU3RLWGhTUGhvTVVKcGIwMFlKa2dIS25fanFEcThBZ19WdFMySHFfMk9nOHVFS0M0M1J5YVhJR0IyUl8zQTlZQllDSmJkNFBzVWdObWtNejBLYkV0M0l4ZUhLR0NtaXlSS1g1WGo3a1B5XzlZLU51NXNvUmQ2TUxXLVFZRA?oc=5" target="_blank">Ford Motor Company Mexico Sales Up One Percent In May 2025</a>&nbsp;&nbsp;<font color="#6f6f6f">Ford Authority</font></td>
+      <td>0.077</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Toyota</td>
       <td>FNY Investment Advisers LLC Raises Stock Position in Toyota Motor Co. (NYSE:TM) - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb2NlX1d0c2Z3aF90bUdnNjlERWdHcXM3OGhHOHl4OGRPUHNTN1JMZnRKZDNnSG5qT1ZCcFNRRk83czlYQkRIcGJTMlR4aTdmYlU2bzFCdkZuUm5ZaG5VQlRMeFlkeEFwZDZUU01TbEpnMDNPUHdMOHMycHRYbDM2aExiQXdHaU1MbkhrZlktX2hwNUVLRHpNN1REcVJFa0N4Y1VXRlAtamxsRzE3dmwxajgzOUxjN0lDVVU4b2xkS2RZc1cwSVBJdENSXzJnVFJWREE?oc=5" target="_blank">FNY Investment Advisers LLC Raises Stock Position in Toyota Motor Co. (NYSE:TM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -176,7 +190,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Toyota</td>
       <td>New Toyota Prius Plug-in Hybrid Nightshade Edition Delivers 44-Mile Electric Range, Premium Black Styling - Stock Titan</td>
       <td><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxQNmNiLXczZlFoaGxVV29BUF96X3Q5bEZMdTB5MXRMVlZHS0F1MGo3Mk5CYV9pYmV4YkFRYlBYai03VHdONGxIUkI2dGtOOG12d3NuRzl1WGlOU2gwWHRNbTRwZGJtOXhGNzRXNU84YzFmYkNmak80OWltZ1doZ05MVEVKVjNVQXAtYklFR0JydUlDZWp2LVpuWTlMcTZvZmRVVS1ta3FvR00xYVNDSVNnRkx3?oc=5" target="_blank">New Toyota Prius Plug-in Hybrid Nightshade Edition Delivers 44-Mile Electric Range, Premium Black Styling</a>&nbsp;&nbsp;<font color="#6f6f6f">Stock Titan</font></td>
@@ -186,57 +200,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Toyota</td>
-      <td>Toyota Venza Comeback? New Harrier in Japan Fuels US Speculation - autoblog.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE9KTGtMQXlVY2ZIZVVkdklmUmVVR0dMYUh2MU55YnJJSmxMRGtHRmJWdFpqLWd4S2ZhZEZtNlpsSGcwLUJwYkU4T1I0OWgwbEJpdnBoLUpzT3N2WEYwUmVaRWdpemRlZFEwTzRKN2cwVVZwcEkyVGtQQTE4TGo?oc=5" target="_blank">Toyota Venza Comeback? New Harrier in Japan Fuels US Speculation</a>&nbsp;&nbsp;<font color="#6f6f6f">autoblog.com</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Toyota</td>
-      <td>Floury: Toyota Had No Chance in “Two-Class” Hypercar Battle - Sportscar365</td>
-      <td><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxObVFzUWZtQ29zV3N0aTNQQTY0amxTaVoyMmEzWV9mS3FYYU1RZjBacU1hNnFwMWZXOE1uemtFM043SkxpdXN1b3F3dEVwa0pMZS1DbU0tVV81cVQ2VnIxd2RJTmxNYWE4OVFHRTBaM0V2dWpPTUtjb0tRSndqS2RZVGtwOWxtTkFIT243THVmNHphVkVQcjFmUQ?oc=5" target="_blank">Floury: Toyota Had No Chance in “Two-Class” Hypercar Battle</a>&nbsp;&nbsp;<font color="#6f6f6f">Sportscar365</font></td>
-      <td>-0.622</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Toyota</td>
-      <td>Toyota stuck in “second class” with Cadillac, Aston Martin at Le Mans - Crash.net</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1JKeGE4YXI4aVloQnRhdGw0VnZqRFVibTZOX2RGUXJLdlVPRnV0bks3Z2t4eExGUWpRdkpLalJDOWs3UWNFN3Y4VnlPOHNQSzJCV3RYaDFNaVN5Q29TVzQwemppYTlnbUdQOFVvNGhIM2NYYll5Um00VmZVQU1XWEFvTUxVaWZYZmpqRElBOU9KTGRzeG9iSTVFckx5MlRrcXc?oc=5" target="_blank">Toyota stuck in “second class” with Cadillac, Aston Martin at Le Mans</a>&nbsp;&nbsp;<font color="#6f6f6f">Crash.net</font></td>
-      <td>-0.459</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Toyota</td>
-      <td>2025 WEC ROUND 4 Le Mans 24 Hours: Race | RELEASE | WEC - TOYOTA GAZOO Racing</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9ObVVsMTg5cXZFUjdrTlJQWXFQOGxPRlBCaERPNE5HUWhFN253aEtRRTBMbUc4MzR1MWZQRnROOHVlek82SG5Rd1UxV0ZXUEpvSFZtMjMyNmx1RnBScVBTcVRXWmY0RlRSekE?oc=5" target="_blank">2025 WEC ROUND 4 Le Mans 24 Hours: Race | RELEASE | WEC</a>&nbsp;&nbsp;<font color="#6f6f6f">TOYOTA GAZOO Racing</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Toyota</td>
-      <td>Toyota Made A Stealthy Wagon And Of Course You Can’t Have It - Carscoops</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmZUaVR5MHdaNTNDLUxKLW9rbGlMZmhXLW1hZzhXMTVIOVV5N1YwU2o5QWYzdENUakVHVXZVb1luRjlIVHIyMDZkWF9QaEZPWTNvZnJONEhpV1FxellTc3c1Xy1BUHVzVVhsUHVpYmJwTVQtZGVmVnE0ZkhNMXZxOGtuVEN1WFZjdVV1VTQ5UkRZUXBNSkZSTUJfSkZ5MUNNd3c?oc=5" target="_blank">Toyota Made A Stealthy Wagon And Of Course You Can’t Have It</a>&nbsp;&nbsp;<font color="#6f6f6f">Carscoops</font></td>
-      <td>-0.052</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Toyota</td>
       <td>No, Toyota Didn’t Build A Water-Powered Car - Forbes</td>
       <td><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTc4NkRBQnp5eExxbk9WckhQYXJwUkJObXI1Rl9XNE1jZGk3ODFMN1JfNW9oMzdmS3FuV2N2ZElaVXFJSTE2UlhUTzlrS19XX3EyVjNwX2xJQk5rS2p1NGREYWpaNmUxRnlXVU96VGhNdW1VdmtPYlRSY2VkYUZidi00UXVhTTVNWmpFblRwdHVkQUt3?oc=5" target="_blank">No, Toyota Didn’t Build A Water-Powered Car</a>&nbsp;&nbsp;<font color="#6f6f6f">Forbes</font></td>
@@ -246,27 +210,77 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Toyota</td>
-      <td>At Toyota, Toyoda is large and in charge after a humbling 2024 - Automotive News</td>
-      <td><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQNWV4Y0NVNmZtMjNEaGZ5U1dueU1OTVB6TTRrcHI0WkotWl9DUnFLWjBzYUw5TjNHS0F0UjNZN2JqcE4ybVFZNVhCNHBZdzc5X0VWWEpPU2g5Zk93YkRwWXpyVlNCanltNUNKbTQ0bzMyRmtUX1Vob0hkNmcwMGRCTllJVXJhbWJmaEJyNnhpZTJtRUgwNEQybDFnVU9LbUk?oc=5" target="_blank">At Toyota, Toyoda is large and in charge after a humbling 2024</a>&nbsp;&nbsp;<font color="#6f6f6f">Automotive News</font></td>
+      <td>Imagine A Toyota Pickup With Rolls-Royce Vibes And You’re Not Far Off From This - Carscoops</td>
+      <td><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQUVRvLXhQZWFneE5ZZDRXN0s4a0QteEdpeWxlU0JGNUFvRkVuVEZacGp3Njh5a2RHSDVOMzBmeTMtZmdQNHZIME0yZ3JXQ3Z3RmdUUmhrczRTLUJwWWFXZjRILVR6NTJULTNSTDBsV0ZVLVFuVkRjZG84QS1FM3FyOVFTVQ?oc=5" target="_blank">Imagine A Toyota Pickup With Rolls-Royce Vibes And You’re Not Far Off From This</a>&nbsp;&nbsp;<font color="#6f6f6f">Carscoops</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Toyota</td>
-      <td>Toyota Kluger to gain range-extender EV option in China</td>
-      <td>The Toyota Kluger's Chinese sibling will gain an extended-range EV drivetrain option in the next-generation model.</td>
-      <td>0.778</td>
+      <td>Toyota Venza Comeback? New Harrier in Japan Fuels US Speculation - autoblog.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTE9KTGtMQXlVY2ZIZVVkdklmUmVVR0dMYUh2MU55YnJJSmxMRGtHRmJWdFpqLWd4S2ZhZEZtNlpsSGcwLUJwYkU4T1I0OWgwbEJpdnBoLUpzT3N2WEYwUmVaRWdpemRlZFEwTzRKN2cwVVZwcEkyVGtQQTE4TGo?oc=5" target="_blank">Toyota Venza Comeback? New Harrier in Japan Fuels US Speculation</a>&nbsp;&nbsp;<font color="#6f6f6f">autoblog.com</font></td>
+      <td>0.000</td>
       <td>0</td>
       <td></td>
-      <td>GNews</td>
+      <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>Toyota</td>
+      <td>At Toyota, Akio Toyoda is large and in charge after a humbling 2024 - Automotive News</td>
+      <td><a href="https://news.google.com/rss/articles/CBMinwFBVV95cUxQNWV4Y0NVNmZtMjNEaGZ5U1dueU1OTVB6TTRrcHI0WkotWl9DUnFLWjBzYUw5TjNHS0F0UjNZN2JqcE4ybVFZNVhCNHBZdzc5X0VWWEpPU2g5Zk93YkRwWXpyVlNCanltNUNKbTQ0bzMyRmtUX1Vob0hkNmcwMGRCTllJVXJhbWJmaEJyNnhpZTJtRUgwNEQybDFnVU9LbUk?oc=5" target="_blank">At Toyota, Akio Toyoda is large and in charge after a humbling 2024</a>&nbsp;&nbsp;<font color="#6f6f6f">Automotive News</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Toyota</td>
+      <td>Toyota stuck in “second class” with Cadillac, Aston Martin at Le Mans - Crash.net</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxPd1JKeGE4YXI4aVloQnRhdGw0VnZqRFVibTZOX2RGUXJLdlVPRnV0bks3Z2t4eExGUWpRdkpLalJDOWs3UWNFN3Y4VnlPOHNQSzJCV3RYaDFNaVN5Q29TVzQwemppYTlnbUdQOFVvNGhIM2NYYll5Um00VmZVQU1XWEFvTUxVaWZYZmpqRElBOU9KTGRzeG9iSTVFckx5MlRrcXc?oc=5" target="_blank">Toyota stuck in “second class” with Cadillac, Aston Martin at Le Mans</a>&nbsp;&nbsp;<font color="#6f6f6f">Crash.net</font></td>
+      <td>-0.459</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Toyota</td>
+      <td>2025 WEC ROUND 4 Le Mans 24 Hours: Race | RELEASE | WEC - TOYOTA GAZOO Racing</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiakFVX3lxTE9ObVVsMTg5cXZFUjdrTlJQWXFQOGxPRlBCaERPNE5HUWhFN253aEtRRTBMbUc4MzR1MWZQRnROOHVlek82SG5Rd1UxV0ZXUEpvSFZtMjMyNmx1RnBScVBTcVRXWmY0RlRSekE?oc=5" target="_blank">2025 WEC ROUND 4 Le Mans 24 Hours: Race | RELEASE | WEC</a>&nbsp;&nbsp;<font color="#6f6f6f">TOYOTA GAZOO Racing</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Toyota</td>
+      <td>Toyota Made A Stealthy Wagon And Of Course You Can’t Have It - Carscoops</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmZUaVR5MHdaNTNDLUxKLW9rbGlMZmhXLW1hZzhXMTVIOVV5N1YwU2o5QWYzdENUakVHVXZVb1luRjlIVHIyMDZkWF9QaEZPWTNvZnJONEhpV1FxellTc3c1Xy1BUHVzVVhsUHVpYmJwTVQtZGVmVnE0ZkhNMXZxOGtuVEN1WFZjdVV1VTQ5UkRZUXBNSkZSTUJfSkZ5MUNNd3c?oc=5" target="_blank">Toyota Made A Stealthy Wagon And Of Course You Can’t Have It</a>&nbsp;&nbsp;<font color="#6f6f6f">Carscoops</font></td>
+      <td>-0.052</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>GM</td>
+      <td>General Motors Company (GM): Jim Cramer Sees Clear Ramp To $53 - Yahoo</td>
+      <td><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxQTmRCdUtXbWpjMVhoWmJtSjNvcWVlN3BtTmk4eWhNREhZU1hvSzFFcUJIM1F5bVdaZ1BfTHhKN2ZEOWtZYzhkRmpjNmx0MDU5aDlRcDVYTUhGcVFmOFp6amZwRVhEN08yMktYWkpNQWtSeXhSMU4tU2Uzdk02c3pISzNwUzk?oc=5" target="_blank">General Motors Company (GM): Jim Cramer Sees Clear Ramp To $53</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo</font></td>
+      <td>0.637</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>GM</td>
       <td>Mn Services Vermogensbeheer B.V. Sells 38,500 Shares of General Motors (NYSE:GM) - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSjN1UERPSlBDbFVlekFfQkk1ZUlMUkpJaUIxNnlPaUsxOXRqbUp2bHVCbndaWXRwNFp0NU9zYWM2aWhORjIyVmZRdnlZak9IQ2NvRW01QnNwMjBFRy1rSTkyclVzWEt6TUt1RHRpZDBfN1FRS3FqUm1IVHRnc00yUW9OeFk0MUN0dGRVdFVfdEtEUXI0d3QybVplT3c2RFoydGpONEdicUo4TGg1aFNvNXVNNkVxYW1KUGk3bFNzN0NSdHdpWmJwN2pUM3FiZU1k?oc=5" target="_blank">Mn Services Vermogensbeheer B.V. Sells 38,500 Shares of General Motors (NYSE:GM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -276,7 +290,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>GM</td>
+      <td>CCM Investment Advisers LLC Grows Stock Holdings in General Motors (NYSE:GM) - MarketBeat</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXdvNkVCbm9SNnNGSzBMUUgtbmhpYXJDR0pMZFZDbWxtcjE4VDdJbm02MllFZ1J3ZVF5YkxHOFdydjV3NGhNTGN1T1djLV8tQUUxM0JCVVJJTWdNUDN3RVdjWDhOVzdJOFg3T1hYMnRxZk9YUEE4VzNPZW1zNnd4NEZ0SWkxanhzamEwNU1Ya1NDdDF3XzN6QnFTMi1zME0zWTJpVEJkNXVrdW9GM1N5c05lWG8ybmtQZG1LVk9JUVhGdFpOc09kQ0VfR1F3QXZ1X3ctaHd3?oc=5" target="_blank">CCM Investment Advisers LLC Grows Stock Holdings in General Motors (NYSE:GM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>GM</td>
       <td>General Motors (NYSE:GM) Shares Sold by Union Bancaire Privee UBP SA - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMixwFBVV95cUxOdTEtSURwZlpzYnY2eEt5UTlzMjlGbVJpOGJJQ1d0UndZTjV2OU5DbV91RDN2TFI2c0tUME4wb1AzMGo4RjFkVWt3dnNNTkZuaTNHRU9zRERaeWZSRG5xMWRxOFRfdVl3NnZ6Z245M00yUlNJcU44NG9CNlFoTWY1QXNiV0dlNWNGa2ZmNktxalhqZm85TVJ0N2FOUzVaczhsdGFjZ2VvM01TVVJLeEJkeDlNdF83T3JPTzF6RTkyRDVCVGR0cjFV?oc=5" target="_blank">General Motors (NYSE:GM) Shares Sold by Union Bancaire Privee UBP SA</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -286,37 +310,37 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>GM</td>
-      <td>General Motors investing $4B in U.S. manufacturing – including Michigan plant - MLive.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxOTFlvcXFuNW8zYVJqaFJ0dVhyZjNMZmR3Mk9wTkdMZ0s5dHVnalhBNU9uUlJGUHM1Mkl5bzhDTEtnak9aTUtteEIwd284Z3N3SVM3Sk5ob1h4anQ1cWR3MWF1NVpKcXRORjZMem9FMDZ1YjlBbmszbXpGel9JdmxrOWgtMmdEc0xKS0xDTDdqa2lwTWtjMmRQalFHOUVLY2lTQlNqOUJkX0NrbnhhSXh5SU530gHGAUFVX3lxTFBNck9kdEdxZFBLN1JzSXNqV2ZreG8yNERSazY0VFg1VURaejdZSmxCMXVzcEhpeHBoNDlDaGFRd0JEbmNtdkVNQ3lpNWVaMlhRS29vLTc2UGRybW1CMTczZFRZTjA0MWJ5WDJ1YjU5NjhBOEFFN2lUOG5PcTcwVkdzZmxPT09lcUstR1cxLWNVM3luWFBGZGpLQ2ptaFNwNkF1OU1WdGV1Rmt3bDlYbzJNUUhQUGZpMUNpSWZYZGNPMjdQdHRJdw?oc=5" target="_blank">General Motors investing $4B in U.S. manufacturing – including Michigan plant</a>&nbsp;&nbsp;<font color="#6f6f6f">MLive.com</font></td>
+      <td>BREAKING: Test Track Reopening Date Announced</td>
+      <td>Disney announced the reopening date for Test Track presented by General Motors at EPCOT.</td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
-      <td>RSS</td>
+      <td>GNews</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Tesla Stock Rises. After Musk and Trump Spat It’s the Calm Before Robotaxi Storm. - Barron's</td>
-      <td><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE10bl9fRWU1RDZGNkpxODZQZ2FmM01RYmZaX3AzcGZxcWN1REtnbDlMTVRDRDM0bG05TDRpSm4wc054N19ENWcwQS1VX0lRUW1pV2tSRldoaENLb3B5VnZxTzZFbEg4ZTRrcEFNYk1CbURSRzJ5a2lEWEtVQ1RaQQ?oc=5" target="_blank">Tesla Stock Rises. After Musk and Trump Spat It’s the Calm Before Robotaxi Storm.</a>&nbsp;&nbsp;<font color="#6f6f6f">Barron's</font></td>
+      <td>Tesla Stock Rises. After Musk-Trump Spat It’s the Calm Before Robotaxi Storm. - Barron's</td>
+      <td><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE10bl9fRWU1RDZGNkpxODZQZ2FmM01RYmZaX3AzcGZxcWN1REtnbDlMTVRDRDM0bG05TDRpSm4wc054N19ENWcwQS1VX0lRUW1pV2tSRldoaENLb3B5VnZxTzZFbEg4ZTRrcEFNYk1CbURSRzJ5a2lEWEtVQ1RaQQ?oc=5" target="_blank">Tesla Stock Rises. After Musk-Trump Spat It’s the Calm Before Robotaxi Storm.</a>&nbsp;&nbsp;<font color="#6f6f6f">Barron's</font></td>
       <td>0.557</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Could Buying Tesla Stock Today Be the Smartest Decision You Make This Year? - The Motley Fool</td>
-      <td><ol><li><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPUmhURnJtWk1PM3AtQmR5Y3NkbUN2dVczQWs2cWlzXzJGWENFanduUU93YVdZR0xrRTNsZlpmLWZnajJjMHRzei1RNmYwTWM2R1YxQm50NmQ5R0F6ZjdkXzRxeG5qTDV6N0NwUFFIYnBtYXpIV0NJVnlOV3UtTENhOGNEdUNYOW9jMWUyeXJONWdpejFxWW1LeA?oc=5" target="_blank">Could Buying Tesla Stock Today Be the Smartest Decision You Make This Year?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></li><li><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPa25FWTNmNEVtMVM0QTVpRUdHUVJRbGZTOWdkOWRqS3pPcjlZa09saTJlT1p1NHlkaEdhV2dpU1FIdVdwRUVwVTNjYTZfY2FweTJKSDRiRUxpUmhWSmNtSXkwWHZORVh4dDdDVEVnbnJqdEFfMzFXZExQaF9Qb1EtVEJfVS1ybTh0OFRGMzA2dVdpaUk1S2N6Mw?oc=5" target="_blank">Could Buying Tesla Stock Today Set You Up for Life?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></li><li><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE90TEZxQnZoQjNtNlBoWE5Id1BTS2lRYmp6V3owVE10am5RZ0tSSHJhVkJLZzNqX3BrdU5Mc1NQdDVIM0QtT1pUZlZWdm42RVhraVMzemtzRFg1cmVKNEpsTG9Ya0FrVWVuZVZzM1ZiYWlYeGRYczZhRW85VQ?oc=5" target="_blank">Where Will Tesla Stock Be in 5 Years?</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li></ol></td>
-      <td>0.794</td>
+      <td>Could Buying Tesla Stock Today Set You Up for Life? - Yahoo Finance</td>
+      <td><ol><li><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQMWRQQ1llc2k0bnFfc0gyN09PQWZfSlNlOTNJSm9UZWlXUkVzeWpJM2pNOV85QzBySl91eFdrU1NyRWZlaTNaT2FRR0RPakRkM3RXeURfdTRXXzBvbnJ3b2tNbXBhbGZ1MjR4X0UtZkdvOWp2aTZHWTR4OWdGTy1jNTZR?oc=5" target="_blank">Could Buying Tesla Stock Today Set You Up for Life?</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li><li><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPUmhURnJtWk1PM3AtQmR5Y3NkbUN2dVczQWs2cWlzXzJGWENFanduUU93YVdZR0xrRTNsZlpmLWZnajJjMHRzei1RNmYwTWM2R1YxQm50NmQ5R0F6ZjdkXzRxeG5qTDV6N0NwUFFIYnBtYXpIV0NJVnlOV3UtTENhOGNEdUNYOW9jMWUyeXJONWdpejFxWW1LeA?oc=5" target="_blank">Could Buying Tesla Stock Today Be the Smartest Decision You Make This Year?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></li><li><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE8wZF9HMGw0NTlMbzdobEFBanFsSExMU214cTgyb1NacWhmU3dfNlI0elR1MG1Rc0R3YTc2c0JCUUVVNmZFbklmZ0Nkbk5OTkQwYVdNZy1KWGh6cDJyUFVKWXN1QXNyVFR5TS1zY0s0eDNkTnAwUlE?oc=5" target="_blank">Where Will Tesla Stock Be in 5 Years?</a>&nbsp;&nbsp;<font color="#6f6f6f">Nasdaq</font></li></ol></td>
+      <td>0.715</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
       <td>Watch These Tesla Stock Price Levels as Investors Look Past Musk-Trump Feud - Investopedia</td>
       <td><a href="https://news.google.com/rss/articles/CBMiswFBVV95cUxPTnpRSTAyZGg1R1FyOHB5RG51RHQ4cm0tLWFRQnRRUi1yMS1hOUowOG5GRmg2MjNZUGdWOTFJd0JvZkZ5RTJoZUNaS2RsX3lKcUJCLUNmd1NnSUVIM0dBWmZ6aTA5OFFRYWNrbHMyVXhWREk5R2txWGVoeF9XX3FXdmRnR2dXWFZ0Z1owYlVidUxIT1BfajhjMnRUeDh2UDBzMWR5OG5pYy1sVjNoZVd6R040QQ?oc=5" target="_blank">Watch These Tesla Stock Price Levels as Investors Look Past Musk-Trump Feud</a>&nbsp;&nbsp;<font color="#6f6f6f">Investopedia</font></td>
@@ -326,7 +350,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>Tesla</td>
+      <td>Is Tesla Stock A Buy As The New Model S And Model X Launch? - Barchart.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMipgFBVV95cUxOREdWZHFrRDBvbC1aOXdNSk41dWNuTnkwOTBUVUJWU2JNdkFpYlEzdHNLbFRycVY4TUstMXctc0t2cHp4blExZTE5eEVmV0xaOE9hY24za1kxaU15MjdZdWgxVnpucG10akltQ21sUFhuSjZZbHpkaHhEQnNsQzh1WEVLWUNqU1BDQ1JOckFFcFF1RmpmZ0VqcENpdGg3SEdZNDh0V1ZR?oc=5" target="_blank">Is Tesla Stock A Buy As The New Model S And Model X Launch?</a>&nbsp;&nbsp;<font color="#6f6f6f">Barchart.com</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
       <td>Tesla Stock (TSLA) in Spotlight as Investors Brace for Robotaxi Shake-Up - TipRanks</td>
       <td><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxNcnZmRGJ3V28tdUw2MHV5V3FnODVZSzVLQUVGS3Qwc0k3b3hCdWlFYkJZSEx6Rlk0WXI5R0o4RzlZTHVQemVSY25DSkJObzhHdEVNV0pvZ2RNM2kyMzItYjNfZUdqaGhvU2Yxb2w1NzdDQlpJMHNxVVNETHFPdU5MWEo5U3dVeEF6WElXLTNvQXozWndnVzMtYUlUMG14WmU4N2c?oc=5" target="_blank">Tesla Stock (TSLA) in Spotlight as Investors Brace for Robotaxi Shake-Up</a>&nbsp;&nbsp;<font color="#6f6f6f">TipRanks</font></td>
@@ -336,17 +370,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Tesla. Meta Platforms, Eli Lilly rise premarket; Sarepta plunges - Investing.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxQTTdvTFBDUjlRMGVCUEJKSURhdTVCTE9yZTdFZzNfMnlIWHFwQUhUeUFKMWZWM2s0eDdxTngzUFJUUkR3VW5ZWXFvMU04V1BsTGJQeUJZVXpCdTFyWGRDNE5WQ3lNWFZ0OVhEWDV6b2R2TkQwT3dyMmk0a3p0ZjNqNktjRjZMWDEydVp3R3g1NENfSU9KeU1uM2VOd0E4R2NLcndjUDM4VUlmel9ybHFVNlhjM2RpX2dZT2c?oc=5" target="_blank">Tesla. Meta Platforms, Eli Lilly rise premarket; Sarepta plunges</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com</font></td>
+      <td>Tesla stock rating reiterated by Cantor Fitzgerald ahead of robotaxi launch - Investing.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWkNvUHEtN21nVnlzNXNnRlpqNk9BYzVFYlpMRnRIeWRQazhrRzhGT0puWHB5c0dQVlFOOGh2MkVmNWR6bmFMLWFkNGVucU9Sbm11cVlXTDlVRUxfODNKWkZqNldlT3VMQWw3bXgwdEoyQmpoM21BZkMzeVB1MWsxWmJUc2lWQXVGMmNhZmpGeS1fdlAtVWx1OW5xTVVwQ0kxRDZSd2t6SzF1Y29SZ3U5T0ZHcDVETFFiLVRDWFNqeTkwS0Q4aGMtSmFNQ1ViT2pQ?oc=5" target="_blank">Tesla stock rating reiterated by Cantor Fitzgerald ahead of robotaxi launch</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
       <td>Could buying Tesla stock today set you up for life?</td>
       <td>Let's take a look.</td>
@@ -356,97 +390,87 @@
       <td>GNews</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Tesla blows past stopped school bus and hits kid-sized dummies in Full Self-Driving tests - Engadget</td>
-      <td><ol><li><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxObk1QeW8wb2lkMTVGYVFHZG11M0d2REUyQ2lxY0FRREJiOHF6Ql82Z25GWVlyaXRxQzBZNEFJUjVBcnBlNGw5NThQWnd4Nm9YOVI5dnNXajVTdVVsRVdaX2pPMnRvSTJ6V3BUNE9rRFQ1Sk8wSjlYSzNrdTZkWGxXelFNZWZ3VWgzdFZjWVhMYzBjM2t3aHc5ZnZCSkJmOGtIU1U4aHEzOUhoS0huVS1uUFNoaTZzNVM3TXYxTHNXR1VSSlNQRXJMdEtUVWNKdnVwZ2pVQXhhamNEdnZE?oc=5" target="_blank">Tesla blows past stopped school bus and hits kid-sized dummies in Full Self-Driving tests</a>&nbsp;&nbsp;<font color="#6f6f6f">Engadget</font></li><li><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMjdPM1JMaEgzMDVfbzZlQjJzSXh0cF9nVUxxYWNHMnBDSVhfNlhJVmM2d3U0eVpZM28xcENxZlpaeHpkVW5lc2NHSW9nMjRlbWozTG5XWU84SEI2WUJGVy1haGhlcmhBT0V3LUhMQ0hCM1N6VlluZGVfMTAtYkpjZ3ViWUVTNXZv?oc=5" target="_blank">Tesla on ‘self-driving’ gets stuck on train track and hit by train</a>&nbsp;&nbsp;<font color="#6f6f6f">Electrek</font></li><li><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEhsSDBzMFBWQnJfMm4ya0theDRXY3FhajlHTFVJTjBucXg1RVhselc3NGluNHM4dnNnYkVtVm9MeWxjRndDWXNCYmRiNjNjdlZiaWZ3MU9uYlhROUFGaTI2NDE4RTcxTnFicG9qUTZlRWtxTHNieU01X3FSVDNvNVZvWVVEU3hncWc?oc=5" target="_blank">Tesla Robotaxi launch is a dangerous game of smoke and mirrors</a>&nbsp;&nbsp;<font color="#6f6f6f">Electrek</font></li></ol></td>
-      <td>-0.815</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>Tesla leads U.S. sales of EVs lower in April, marking the first annual drop in over a year - Fortune</td>
-      <td><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPTXNZeWNEY1hnR1YxeTdSdDVTSjZCM0hZc1djUm9faWtoMWdPWEJxU1N5NTRnakdIeWlhYktaWGVHa3dVVW1ENVlWYnY4TjRBZEc1ZE8tVVRxTW9rVnlkbEdFYTJ6MWI1c3A4SWpYUUp0U2o5WmNDT0xCNkdsMUdpLQ?oc=5" target="_blank">Tesla leads U.S. sales of EVs lower in April, marking the first annual drop in over a year</a>&nbsp;&nbsp;<font color="#6f6f6f">Fortune</font></td>
-      <td>-0.765</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>This Model Y Killer Is Getting Closer In The Rearview Mirror With Tesla Sales Already Under Pressure - Investor's Business Daily</td>
-      <td><a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxQcU5aTkQwOTNNcXlHNlowcWlEVm9nRDFkaDcxZjNUZzMtcEkwZmIwV2YxV3h0MndzTW5PY051dThWcVFidXh3WlhlYldDZm1hZzFCMVdqV2dELWpmanNHTjRtRHZBczl2Z25JU1A5MThUMzRXaVpTM2VheGR2MWZfMQ?oc=5" target="_blank">This Model Y Killer Is Getting Closer In The Rearview Mirror With Tesla Sales Already Under Pressure</a>&nbsp;&nbsp;<font color="#6f6f6f">Investor's Business Daily</font></td>
-      <td>-0.896</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>Tesla (TSLA) Raises U.S. Prices on Upgraded Model S and X by $5,000 - Yahoo Finance</td>
-      <td><a href="https://news.google.com/rss/articles/CBMifEFVX3lxTFBUaUpHRnRVUnc1N19paGIzT2pyNFdjT0FoUS1BdzRYUXRESi1pU2Nlb1hCQTRCcnpoQ0tMTmhuRWR5dTBLdGdBTV8wa2VFYjJJYUVmcTZIMUE0YWsxZFRtV19aYXMyXzZYQ18wdXpTVUJMZzBveEp6dHhRclc?oc=5" target="_blank">Tesla (TSLA) Raises U.S. Prices on Upgraded Model S and X by $5,000</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>The Definitive Story of Tesla Takedown - WIRED</td>
-      <td><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1uYlpIbllIVTBhQTM1bklEWHlmazZ6TVRGV2ZIQllSN1B2NS0yczUzYlZzbVItNnVOTl9Hd1MyQnktSlo3aUtLY3NXdk01dlFXRVhleWxvS3pMLW80SmFCQXJ4Y3V3c2pUYUpXMQ?oc=5" target="_blank">The Definitive Story of Tesla Takedown</a>&nbsp;&nbsp;<font color="#6f6f6f">WIRED</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>Trump's 'big beautiful bill' would end EV subsidies: Could this kill Tesla? - USA Today</td>
-      <td><a href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmM2Uk0wT21wUmZSWlVmM1U2MEV2eVIyWGVoTW1NMk9jWVFfUEpBQ25ES3NSeDBHMUd2MWJyd3ZVcWFiRERiVTZmR0RqVThtWDJGR1BwVnpIbzQ3dFU0N3RsSVdxcVNMX2dGRmkwellJR0Z5QmVZUGJiaTAxUmdscXVSb0k4aDNLS3JVMHdsSVdPeW5W?oc=5" target="_blank">Trump's 'big beautiful bill' would end EV subsidies: Could this kill Tesla?</a>&nbsp;&nbsp;<font color="#6f6f6f">USA Today</font></td>
-      <td>-0.718</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Tesla</td>
-      <td>My son flunked his road test because he was driving a Tesla, dad says - NJ.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxOU0VURm1CYktZZGRqWFgyWXRaaFBqQzVlTWN3T1FSd3U1US1mRkh1MDFjS3ZwU0JZQlN1T0t2cVdtS0hkWWRTaUZTaDd3ZnVXaTgzdUotUDFjYkJ2YUFsUHphSE9hV0l1Si11dkVLUF9nUWtScVZBdGhVMktSX3IzQXJ5aUdULVJkbFlUZGpiaTRua2diZ1k0c2VidEVjcXctX1BRdTloemLSAbwBQVVfeXFMTUVKTU92VDdiMHhFMlU0eTd6aGUxME9NcjFQWGxFODhldVBRZHNXblJXeHNBdm8zUXFZc3cxNFNaSEx5clZiSGJQN1BxV2lILVFQcDYwMVJHU3JBMjNveWZRSlQzcTIzV2lKNnJtaVd6OWZQZUxKZGxFODhNRUlYZHRJUmZCb1laZGpxaGtkU3pXTEZhZ1R1RFo0MzJhTVJDaG1pNklXUi1Fck15ZjkxUjdxSjNCWFJ2ZEE4dms?oc=5" target="_blank">My son flunked his road test because he was driving a Tesla, dad says</a>&nbsp;&nbsp;<font color="#6f6f6f">NJ.com</font></td>
+      <td>Tesla Robotaxi launch is a dangerous game of smoke and mirrors - Electrek</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEhsSDBzMFBWQnJfMm4ya0theDRXY3FhajlHTFVJTjBucXg1RVhselc3NGluNHM4dnNnYkVtVm9MeWxjRndDWXNCYmRiNjNjdlZiaWZ3MU9uYlhROUFGaTI2NDE4RTcxTnFicG9qUTZlRWtxTHNieU01X3FSVDNvNVZvWVVEU3hncWc?oc=5" target="_blank">Tesla Robotaxi launch is a dangerous game of smoke and mirrors</a>&nbsp;&nbsp;<font color="#6f6f6f">Electrek</font></td>
       <td>-0.735</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Trump's bill would end EV subsidies: Could this kill Tesla?</td>
-      <td>You might be surprised by the answer.</td>
-      <td>-0.693</td>
+      <td>Tesla blows past stopped school bus and hits kid-sized dummies in Full Self-Driving tests - Engadget</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi3AFBVV95cUxObk1QeW8wb2lkMTVGYVFHZG11M0d2REUyQ2lxY0FRREJiOHF6Ql82Z25GWVlyaXRxQzBZNEFJUjVBcnBlNGw5NThQWnd4Nm9YOVI5dnNXajVTdVVsRVdaX2pPMnRvSTJ6V3BUNE9rRFQ1Sk8wSjlYSzNrdTZkWGxXelFNZWZ3VWgzdFZjWVhMYzBjM2t3aHc5ZnZCSkJmOGtIU1U4aHEzOUhoS0huVS1uUFNoaTZzNVM3TXYxTHNXR1VSSlNQRXJMdEtUVWNKdnVwZ2pVQXhhamNEdnZE?oc=5" target="_blank">Tesla blows past stopped school bus and hits kid-sized dummies in Full Self-Driving tests</a>&nbsp;&nbsp;<font color="#6f6f6f">Engadget</font></td>
+      <td>-0.421</td>
       <td>0</td>
       <td></td>
-      <td>GNews</td>
+      <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Tesla</td>
-      <td>Tesla blows past stopped school bus and hits kid-sized dummies in Full Self-Driving tests</td>
-      <td>Before the Cybercab rollout, anti-Tesla activists organized a demonstration showing the flaws of Full-Self Driving software.</td>
-      <td>-0.128</td>
-      <td>2</td>
-      <td>software; Software</td>
-      <td>GNews</td>
+      <td>Tesla price hikes, Roku–Amazon, Hinge Health analyst coverage - Yahoo Finance</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxQSlJ1dEUzZ0tRcUxCWDBGTFVtQkdxbk1DaFNaUFhNYzJucVJXT1g3SXVRT1pKaHFEb2t2VEgxXzRzRGtDa05WOHJ0WUNFLUl5Z0JCX1oyY1g3dXJoOUZCdVlENFB6Xy10RGFWNWhJZGRMdXg5VHBrcnJaTWVPeXdYVmxn?oc=5" target="_blank">Tesla price hikes, Roku–Amazon, Hinge Health analyst coverage</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>Tesla</td>
+      <td>Tesla confirms massive hardware change for autonomy improvement - Teslarati</td>
+      <td><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQVDUtNGhER1M4NWczbk1KUFlfbXJUSm1WTFVwNENBbkNiX2JYY0tWenJxUlRQZFdTT29tdVJWQkN3OUVYam9qOHBaM05UZ0RtcTc2LU0wUU1vM3o2X0tqQ2o5X1o0RjNVS0g4ZG9zTTNYNEJka3lZQVBKbC1hT0FPeWZQZmNuTWxLWHVVSHktVQ?oc=5" target="_blank">Tesla confirms massive hardware change for autonomy improvement</a>&nbsp;&nbsp;<font color="#6f6f6f">Teslarati</font></td>
+      <td>0.459</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Tesla</td>
+      <td>Almost Every Tesla Is Tanking In Value On The Used Market - Jalopnik</td>
+      <td><a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE94N00xTmJLNTY2RkQ2ZWs0c04tYmE4VklDZWF0NzFYUGxiOW1OX25Zb1hKYXZrbzloNlZaYjBxZVlHWnB6RlpocEVmSFFIZ1ZXRFN5RzRBeDZnMHYyNEJUZG5QWjlmVWtWNi1kUGJ6a0l4dnJiQVlQak1kVQ?oc=5" target="_blank">Almost Every Tesla Is Tanking In Value On The Used Market</a>&nbsp;&nbsp;<font color="#6f6f6f">Jalopnik</font></td>
+      <td>0.586</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Tesla</td>
+      <td>Tesla and the Other American Car That Are Way Cheaper Due To Trump’s Tariffs - MSN</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi6gFBVV95cUxNN1N3SXc2bG9XdFhPR19YcDRuQkFIRUNpbDhLaVBpTV9SbmlERUE0WTI1LWpvaFBqUXlUc2QyM1RKaVJFcm8xTEZrN2NjMks1Y2Vnbk5BTTVkNC1WY1hRZk5weGEyX3hSQ1ZteGoyOUJEc2RkN2JTWWJRUGpNaG5HdHpSVmE2T0owNEd3T2FVY2d0T05UVHRfRnBLVWRJOVNDdFdoa2lqR1h2azRFU3hJXzgyZHhONkNreHBKcmNkY19tcGhybi1YMnI3VXg0czQ4c1g0LWdiS0VYcEJmWm5xanN2SUR3bF9UU2c?oc=5" target="_blank">Tesla and the Other American Car That Are Way Cheaper Due To Trump’s Tariffs</a>&nbsp;&nbsp;<font color="#6f6f6f">MSN</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Tesla</td>
+      <td>Could Buying Tesla Stock Today Be the Smartest Decision You Make This Year? - The Motley Fool</td>
+      <td><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxPUmhURnJtWk1PM3AtQmR5Y3NkbUN2dVczQWs2cWlzXzJGWENFanduUU93YVdZR0xrRTNsZlpmLWZnajJjMHRzei1RNmYwTWM2R1YxQm50NmQ5R0F6ZjdkXzRxeG5qTDV6N0NwUFFIYnBtYXpIV0NJVnlOV3UtTENhOGNEdUNYOW9jMWUyeXJONWdpejFxWW1LeA?oc=5" target="_blank">Could Buying Tesla Stock Today Be the Smartest Decision You Make This Year?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></td>
+      <td>0.768</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Harley-Davidson</td>
+      <td>Citigroup Raises Price Target for Harley-Davidson (HOG) to $27 | HOG Stock News - GuruFocus</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxQbVQxd1F4MEszdm1vTWFBc1A0aXJEMDcyWk9oSWRpQURKaHhBNmN3SjZKVEoyOHNDRVpiRWpxcGdicENEbFpvRU1YYXhtcXhpUGU5VDN3V1lGSUhsdUtVR3VkOEwtOTJxY1lZeTNWbEJhV21mZ0xvLTROQnoxTGdCMFl5UWxSVXdsZnNYNi01RGFoYzRxOE1rU01NNjI5YlNtb181X3ZMRlgyVVdYTUo2NEUzUVpxOVdVMjk3bF9iNmdWdVNwR3hNVUc0LWpnRUtPV3NBaVdueGwyRTZmYWpWTGRPVkpHSk9DWFNGRHdwZDBSY1EzUVR3Yw?oc=5" target="_blank">Citigroup Raises Price Target for Harley-Davidson (HOG) to $27 | HOG Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Harley-Davidson</td>
       <td>Harley-Davidson Stock: A Deep Dive Into Analyst Perspectives (5 Ratings) - Benzinga</td>
       <td><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNZElNUi1tdHc0eEsxOEE1OHhMaWl1NkNVZVlDOThveVgzZG5wT29PN1Q1MTZOWDB2MDNOcGlvcXdLSzRBT2J6YlhvV3Z5X0JKSVNtNThUVWRhdjVjVWRSb3RnSkhieWQ5ZEtyTDBkX0NnN0t1QWdkTTYxakg2UV9MUU4zeXJRVHhtcFV6Q3I2WUFkNzZVQ3I1UEgtYWpOSHdkLTFlXzRwRS1fX2xaOEI1ZzU4WmEydVBxZnlRdERyQlZRakU2c3VoLS12cUFJWkU?oc=5" target="_blank">Harley-Davidson Stock: A Deep Dive Into Analyst Perspectives (5 Ratings)</a>&nbsp;&nbsp;<font color="#6f6f6f">Benzinga</font></td>
@@ -456,7 +480,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Harley-Davidson</td>
       <td>Citi Adjusts Price Target for Harley-Davidson (HOG) Amid Market Changes | HOG Stock News - GuruFocus</td>
       <td><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxQOVdOVGNpSUNIVV9PRHFIQ1ZZMTRKRVhQNjNhU3VOUWdycjQ5bXVBTDFZbGp6Zk5qeV9oWDJkNlluNWNUVm5maGxPZVNDY0NRbFQwRk95LXFsWFhNZlJDM29DQmhMUnp3U0g0ZS1Kb0tTcVlISFQ3THRwN29zTEhWZ19XZmZKbFJXQWxITFBsNnVjdkd0dDE2dElnXzlVdklPenM2bmVjSWJoYmk1QmplMWkxX0JLMV93WWY5WGw4Yw?oc=5" target="_blank">Citi Adjusts Price Target for Harley-Davidson (HOG) Amid Market Changes | HOG Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
@@ -466,7 +490,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>Harley-Davidson</td>
+      <td>Harley rider hospitalized after crash involving big rig, major injuries - KMPH</td>
+      <td><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxOa0QzRFVrTC1SMkdmVlE2NmhLNzFyNEhraGV3bXdKNlZkVFhSRmxuOFhVanNiQmd3TmNqYWUxYWZaaHBhZDlDMDhjcFZmZFRjTE8wS0lleFhRNGRTc29qam8yZk9wUmQwMmdZMGRTdW56UDdsTVFucUxJM2FVNE9USkVpZW5pNnEwQXVDSW5hUW56NXZFV0RmaFJHaw?oc=5" target="_blank">Harley rider hospitalized after crash involving big rig, major injuries</a>&nbsp;&nbsp;<font color="#6f6f6f">KMPH</font></td>
+      <td>-0.751</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Harley-Davidson</td>
       <td>Mitsubishi recalls more than 198,000 vehicles. Check car recalls here - The News Journal</td>
       <td><a href="https://news.google.com/rss/articles/CBMi1wFBVV95cUxOblpuWElFLVRYTkR4Y0t3LXZrRENMdjZjeTVlRUE4LUNBNmQxRGJZMkZPU2JLSDdvVzJ3RE85MVR1VHhtMHZIUHZIbzVoYXVKWmdxLVFDMGhuNXl3SHBMUlEtdDYyeWNoNmFWREgxdy03UXd0T3JqSmpEUDBsQUNEUVNFZE9VcW9PS2ZfT1pZcElQY0VFWDItMi1HUEhiYjYzc0g2MFlaM1p1RktRWVhyMFkwX043dzhPc1hYRVF6N3pUNVQ3YklCaVpUeXFRMzFIRmNjdkpaWQ?oc=5" target="_blank">Mitsubishi recalls more than 198,000 vehicles. Check car recalls here</a>&nbsp;&nbsp;<font color="#6f6f6f">The News Journal</font></td>
@@ -476,17 +510,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Harley-Davidson</td>
-      <td>2025 Harley-Davidson Road Glide MC Commute - Motorcyclist</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQmJHWnlYbEwteWM1RUNpaXJJLW5YUndtR2s1bmJsNlcyZzBlMGtXZWdSbk00cUZoWi1xNlZHcHJ0TGstQV9pZ0JEdUlzWkxQMGdua3VaSmE0bmtCMjVJVFNadmVMOEZmbkNsQ1VOM3BoUHJURXBfMEZwVzZxaG5WRWp3NE02MHZy?oc=5" target="_blank">2025 Harley-Davidson Road Glide MC Commute</a>&nbsp;&nbsp;<font color="#6f6f6f">Motorcyclist</font></td>
+      <td>Harley-Davidson Recalls 82,117 Softail Motorcycles (2018 to 2024) - Ultimate Motorcycling</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc21YRFhfeDR1bnFQY3ZSSEUxdFpnejN6ZzN3Ukd5eDVMMWlCNVZ4RlNqdU5fcW1xSTJWS1FJWnl0MnM5M0ZTeENmWGdPX2o5bHJSQVh6NXJ5a0RVdXhwVnBxTExMa0tUUWRjeFdEOFEtZHlaVU5GalpfcGdJVFhVQUVGUEFEb1Q2RTZvZkhFQVhiQ0lwTl9RNE9mWnRGamVWcE51R1NsbGR6YWs?oc=5" target="_blank">Harley-Davidson Recalls 82,117 Softail Motorcycles (2018 to 2024)</a>&nbsp;&nbsp;<font color="#6f6f6f">Ultimate Motorcycling</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
       <td>Harley-Davidson</td>
       <td>Over 82,000 Harley-Davidson softail motorcycles recalled - Gulf Coast News and Weather - Southwest Florida News</td>
       <td><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ3VGQjlqQ3ppQ1NvNml1V3Zpb3VSUzg5NHlYNTNIQkJSdzk2ZnNabV9xMGwwT2tsU0k3UlNfazRaQ0VJa1VYaURfMEN4ZFpTRDQ5RjNpYVVtRnRIMGVmaVZ1OHlMQzZUV1ZJS2hSdHZ4NUk2VTdpYzFwWDJaT2MzaG80YmlSOXdkVzl0enNXdlRScUFqWVp2RzRn?oc=5" target="_blank">Over 82,000 Harley-Davidson softail motorcycles recalled</a>&nbsp;&nbsp;<font color="#6f6f6f">Gulf Coast News and Weather - Southwest Florida News</font></td>
@@ -496,27 +530,37 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Harley-Davidson</td>
-      <td>Harley-Davidson Recall certain 2018-2024 Softail motorcycles - Motor Sports Newswire</td>
-      <td><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxPVm5FaFdEM3ZZWGd0LWptSzJza1JrbTUxY3ZBSFNEVFp0bWpjVjJianh5T1ZFakF1VWpIX05xRjZDa3FMUGJvRGxvWC1oRjZjTFZJMUNjRUNZRlpZWk8zeHMteDhCX21jMDRMTEMtdmhSUFJoUGYwTURJUmh2bkZYQzRyS0hxdXNFcUtNd0xPSkNaR0VCbTNaNGFNRmVnc3Q1X3ZMbExpSQ?oc=5" target="_blank">Harley-Davidson Recall certain 2018-2024 Softail motorcycles</a>&nbsp;&nbsp;<font color="#6f6f6f">Motor Sports Newswire</font></td>
-      <td>0.494</td>
-      <td>1</td>
-      <td>recall</td>
+      <td>2025-06-16 18:15</td>
+      <td>Polaris</td>
+      <td>Polaris (PII) Price Target Raised Amid Industry Legislation Prospects | PII Stock News - GuruFocus</td>
+      <td><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxOMmVWQ0tlWVd1c2trdFhXUGVEYi1sc1RQdXhzZXdmS1R4RzJXMnQxN2UwenZYZ2J5NF8zTTA1TC1KTG9kMzRHLVRISEFuTzAtWHpJamlYVWhYb1dvQTBVejhzR09HdlRhck8xUnc1QzhGRWtyR0lIbVp2OHp4dWYxclNMZ0VhOG1YanZSZHAyRkVaRmVEMWNDY0Zoenp3WnhUZXp3UVRTZWFlUGRZOTJTR3ZfNTc3VHh2WVp5ZzZ0RQ?oc=5" target="_blank">Polaris (PII) Price Target Raised Amid Industry Legislation Prospects | PII Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
+      <td>0.527</td>
+      <td>0</td>
+      <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
-      <td>Harley-Davidson</td>
-      <td>Harley Davidson Motorcycle issues recall for 82,000 bikes - WDRB</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi2gFBVV95cUxPN09nM0tLVWNJeUVISUN1QUg2Vkpia2dldnFCOVNMSVNnUkVOSTJCVGt0cUt1SzRWS1U0UHNYSzQyWVFkQnN3a1N6OVFwNHlTT1kzZld3VUR1dF9mQkFUX1kxXzUyQlpZX1ExdjU5SlM5NGw0dURJblVlYUtxMTB2NTJmLVgxUXZMdWl3Y3BUTldobGZNdkJibHhza2JNT2J0d2g2cDNQMEFka0g3RUstRDV6b18tSTlxZ2Znak44aTRMNVBwWnlBb3ZlcWdpZTZEYnF4UkhxbVJ1Zw?oc=5" target="_blank">Harley Davidson Motorcycle issues recall for 82,000 bikes</a>&nbsp;&nbsp;<font color="#6f6f6f">WDRB</font></td>
-      <td>0.000</td>
-      <td>1</td>
-      <td>recall</td>
+      <td>2025-06-16 18:15</td>
+      <td>Polaris</td>
+      <td>Citigroup Maintains "Sell" Rating on Polaris (PII) Despite Price Target Increase | PII Stock News - GuruFocus</td>
+      <td><a href="https://news.google.com/rss/articles/CBMikAJBVV95cUxQelZQRlBBQXAxSm1lMUcxQVNFUFVDV2VJSGNwWEowcGl2QktLN0RNWkRYdXdwM0tQMUNjYV90OWxsU21xeE5Fa1V6b3pIb3BOOTVydXdqR2pmZTZuc3NGVXZlV0hqNGdUdnVmb094WnNKMWx3U2JJNFlSdUc1MHhVdGRRd0FmTk53R0Y2QzFzekU4LVQwVW5BNFY2ZEZVc0xhdk02N05CM190S1lFajFLaVIzemRiTlRuUHR0bjl1dTBmaEY5ZzJaSHBidzFISEJTSHozbjJELWd2M2M4dHdkZWNRbTRuUnFXcVVtVFpqTHdsZmdDamtEdnBKUXU0dk8tS183ODZJMk1Ed0FFVE01Zw?oc=5" target="_blank">Citigroup Maintains "Sell" Rating on Polaris (PII) Despite Price Target Increase | PII Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
+      <td>-0.445</td>
+      <td>0</td>
+      <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:24</td>
+      <td>2025-06-16 18:15</td>
+      <td>Polaris</td>
+      <td>Polaris Donates $1M to Expand 4-H Off-Road Education - Motorcycle & Powersports News</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxPY0Y3bkVJcVVpUDZpYU5BeVBxeTJNZEpVbC1qdzVTMG9MWFBwWU9YWE9aWE9kS0l3eUhseG9KcklwemVLREJVVWhpTGVwa2k0LTA2cVFQN3FqV2Q5VkRlejdCZGtkQlJGdlZXd1dpSU1zcV9ydko2X0pJLWw5V3lrLW1xMzRJNFZFMEE?oc=5" target="_blank">Polaris Donates $1M to Expand 4-H Off-Road Education</a>&nbsp;&nbsp;<font color="#6f6f6f">Motorcycle & Powersports News</font></td>
+      <td>0.557</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Polaris</td>
       <td>Polaris (PII) Price Target Raised Amid Industry Legislation Pros - GuruFocus</td>
       <td><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxOd3J3enRPYWdXQll0N0FRY0dpeVB2X2ZyM1JUZGxEZ1ZvTjI3R1E0WVlGU1BSNDJPRGgyeG5MbGdGMVkzY0NaOXlzOW5PWlVXdmVEdHpyM2F6UnF3VlZNbGpXWE1JY0s2Slg1cDFrQ3pxUmcxUi1RSC0xMDlYTjRzam9KYXpmajZhZlRhbGZ4VjZXc1RNaTVRNmFlSGlpdlVUS3AwTHpTQnV1QXhTaU1BTjJrQ2t5UnRlMEtGYkZn?oc=5" target="_blank">Polaris (PII) Price Target Raised Amid Industry Legislation Pros</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
@@ -526,7 +570,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Visteon</td>
       <td>Visteon Co. (NASDAQ:VC) Shares Acquired by Assenagon Asset Management S.A. - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOT1A5SExQbnVWbEpYbURXNml5SHhSWE5UTC1UX1l4SzRXNWdDdzU4bzdPdjYxa0lTaU5mWEIyWno0WnBQd3JSMjBzNVA1TmpreUJuTUxiZjV6RkU0TUw4TWtqUXQzT1Ziel9rMk9sTVJiQzRuV1M3bVBjSjdOTXhpUlpiRjFiWTZvV0p0MW5ZdldCbmc1dm9XdW9wdXlkZ2FxTV93Q0I0Z3hSajN0S1BfY2E4S3VCYVZGYldTcWdObGtFWHVyQ1FsNWtn?oc=5" target="_blank">Visteon Co. (NASDAQ:VC) Shares Acquired by Assenagon Asset Management S.A.</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -536,17 +580,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Visteon</td>
-      <td>Visteon Invests $10 Million To Manufacture Camera & Display Backlight Unit At Chennai Facility - MSN</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi7AJBVV95cUxQVnVOR1AyUTM2WC1oT1U2ZFZKOE95djZaSG1naDIzOGJCWkpyZERNMkVrZjNFM3R4dkw3NWlFRU8zeWktQzJVYXVxLVBlNnpraERiZVFYVVZhNlowcmNzaFZ2c3JvWjFNdEVWNW9ybG9DNFQxWkF1Zk5HODJQZlFYdWVFOVJ6M1BVTS1RX2xkZWhiLUhZNmpLdFBvUUJ0cHhRcGxBeEhPRHFVYWxkc0FHbGd0cVY4Y3RXbWsyQm1Vek1vdUJpVS1YUjk5RTJ1dlZWSzZ3eW9tS1JNTmNBb1c1NWdPeHhoQ2NrdVVsYldYaWtiZFZXbl8tdk1qUFdiOHVGR1pCVnNaTzUxcE5QMUQ0a0xvampLakVvb21jNVl0SkRhRVU2UnRuUkV5M2hLZzU2UUkxVUI1dmxHNjcxbmpyd2padkpaRDV2TndsUVkzaTMyOURtT05MNmtVWG9RQzZXUFB5R0phQWFKdFhK?oc=5" target="_blank">Visteon Invests $10 Million To Manufacture Camera & Display Backlight Unit At Chennai Facility</a>&nbsp;&nbsp;<font color="#6f6f6f">MSN</font></td>
+      <td>2025-06-16 18:15</td>
+      <td>Rivian</td>
+      <td>Every Rivian Investor Should Keep an Eye on These 2 Numbers - Yahoo Finance</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNdTN4VXVoZDN6d0hPbVFJVmlLZkRGaV9hVkxTenA4cGVmTW9oLWNoR2tPa3pZbE5hUnMwQ0hzV3JtMlpqc05EUUMxOG1Ub1RuaS1qd082bGR0R0RfMEJkWVFNaWlDVkdESHd5aFI4dC14R09UdUNyT3ZkN0RoZVE1b0JR?oc=5" target="_blank">Every Rivian Investor Should Keep an Eye on These 2 Numbers</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Rivian</td>
       <td>Rivian stock rating reiterated at Cantor Fitzgerald amid debt refinancing By Investing.com - Investing.com India</td>
       <td><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNejhERVlIZzJrRkZMc09rUGJEMUZoWmd2dUJBZjRKYnliYk8xaWptSVJRdWV3ZXVyN2twbmF4MmNrS25yZ1VGSng4bVpvdDFLRFhoUXlnMTdnMXNJN2FGS2RwekJaUGNrSGp1V2xiVVlnWG9iQ3hvMnNTT2VSMjZ2TkoyMUt0dUtRbENndHBOWl83ME9jb3VrS3NJc0l0VzRsWERtZUZGOEFmMUJsS2ZzZ2RjWm9XYnJoc3ZHSjY3eWxNc2FReEJCbUlUMnM?oc=5" target="_blank">Rivian stock rating reiterated at Cantor Fitzgerald amid debt refinancing By Investing.com</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com India</font></td>
@@ -556,7 +600,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Rivian</td>
       <td>Rivian: We Believe In The Larger Vision Here (RIVN) - Seeking Alpha</td>
       <td><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOcTZXb0RHWlBiMWZsNmJjRzJlRGVuMktJNUxleFh0UW5aZTBEUUlveHM3Z1c4T2xLSlBYQnQ2QUhGUnQxX3JJYV9qei1yRkpDc2xQSUJBTkJ2YnNjUUVDLU05SHVMVVo3YU1kUUJMRDdYRVRPR1hVSFoyOE55c3JEcmZEWWtLREZhaExMTA?oc=5" target="_blank">Rivian: We Believe In The Larger Vision Here (RIVN)</a>&nbsp;&nbsp;<font color="#6f6f6f">Seeking Alpha</font></td>
@@ -566,7 +610,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Rivian</td>
       <td>'100% Rivian But New And Fresh': How Rivian Designed The R2 To Be Cheaper And Better - InsideEVs</td>
       <td><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE03TUktdVR1aVgyT3pXT3JBVFpVTjQyRjZ5TU9MTmRVLVBkMnh6VFNZUVIzb2VlRllGUndtUUIwTW8xczJRNE55elJ0OXRaZlFJSEpaVFE3SUFiMXJWbW1XeUlEcFlxdGFlUFVFQVpMZ3FVVThRUExTUQ?oc=5" target="_blank">'100% Rivian But New And Fresh': How Rivian Designed The R2 To Be Cheaper And Better</a>&nbsp;&nbsp;<font color="#6f6f6f">InsideEVs</font></td>
@@ -576,7 +620,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Rivian</td>
       <td>Mitsubishi, Rivian, Hyundai among nearly 350,000 vehicles recalled: Check car recalls - USA Today</td>
       <td><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNOXRlbml4OHFDWGRMTVl4Y2VNcDVoNllNUlFUYzZhSVFVc3JOVXdpVnAyWnM3aU5zU1dvOWNnTmlGNkxudEVneVFxSm9kV0tUWG9NdGdFRFkzSzFhbElUVFRrWjNpYXMzWndSc2JTUzhFNjdzRjNZSm9DcG02YXhucFBLSWpidlRYSGM1el9WT0VNMDc5a0E?oc=5" target="_blank">Mitsubishi, Rivian, Hyundai among nearly 350,000 vehicles recalled: Check car recalls</a>&nbsp;&nbsp;<font color="#6f6f6f">USA Today</font></td>
@@ -586,17 +630,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>Nvidia Stock Rises. Why ‘Sovereign AI’ Has Wall Street Excited. - Barron's</td>
-      <td><ol><li><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1jaUlhOWk0NGFLbHZhYzJha3REYTc0d0RnYjE0LUwyZUhMZUhqT0g0WWRpTFBHQnlIbWV1TzlmaVc3aDlxX3VybmFSaTlkdm5JLVBxWkZfcFBKU3AyWktfUUtyY1N1WGkxdmROeWdITkVvYkRlREpwVA?oc=5" target="_blank">Nvidia Stock Rises. Why ‘Sovereign AI’ Has Wall Street Excited.</a>&nbsp;&nbsp;<font color="#6f6f6f">Barron's</font></li><li><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBMUmNvMFZzaGYxT0Npd3F5cG9WYXF1QjlmcDNaNHBCdmVEaU5YUlp6LVNpLVVDS0YtLTdGUVZFVy1BT1lwdW5IdTljM1VlSFdhNlJmS3JuRnMyU19zbHBVUlJVUFFPMUt6cHZJSW9Xekl0UGUtR0FLWWtYSUJqZw?oc=5" target="_blank">Can Nvidia Stock Double in 5 Years?</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li><li><a href="https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1FrWUZicW9tZE5ZcERVUjZPRTdaSkcteHlWamp3YmlmMTJ1R1FnVDc2Ml9MZm93cjBPU0lLR1J2akZWRGVWSVdFT2hxQThBYXJPLXZwMFhQVjdZcTBzNjJidEY2ZzlBT01CaDU2WEtaTVN6clBLMHdKcWpFUkxnckRCbWJleDBjbUUwNU1ZTXI0Wk9Td1ZwWmhYSWZoczVPZFE?oc=5" target="_blank">Citi Pounds the Table on Nvidia Stock, Citing Big Opportunity in Europe</a>&nbsp;&nbsp;<font color="#6f6f6f">TipRanks</font></li></ol></td>
-      <td>0.732</td>
+      <td><ol><li><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1jaUlhOWk0NGFLbHZhYzJha3REYTc0d0RnYjE0LUwyZUhMZUhqT0g0WWRpTFBHQnlIbWV1TzlmaVc3aDlxX3VybmFSaTlkdm5JLVBxWkZfcFBKU3AyWktfUUtyY1N1WGkxdmROeWdITkVvYkRlREpwVA?oc=5" target="_blank">Nvidia Stock Rises. Why ‘Sovereign AI’ Has Wall Street Excited.</a>&nbsp;&nbsp;<font color="#6f6f6f">Barron's</font></li><li><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTFBMUmNvMFZzaGYxT0Npd3F5cG9WYXF1QjlmcDNaNHBCdmVEaU5YUlp6LVNpLVVDS0YtLTdGUVZFVy1BT1lwdW5IdTljM1VlSFdhNlJmS3JuRnMyU19zbHBVUlJVUFFPMUt6cHZJSW9Xekl0UGUtR0FLWWtYSUJqZw?oc=5" target="_blank">Can Nvidia Stock Double in 5 Years?</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li><li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcU1XdEtyV3hpNEQyaW5oYVROcVhmeTJIc1ZhaFdWT0FFR095WmNJXzFFUTN6R19hYzBObmxNblVXbUZfR0Jnc05oaldBWVFsRmt1bmlqcGI2MHZEN3dfR1AwWTRGcTFFamZlelRiTTRycTllZTZkM2dJY2d1MUtmUU1HaEN1ay03cmdESS1naw?oc=5" target="_blank">Nvidia stock closing in on all-time high</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li></ol></td>
+      <td>0.520</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>Nvidia vs Palantir: Wall Street Says Buy Only 1 of These 2 Soaring Stocks - The Motley Fool</td>
       <td><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxOZU91aVhFZmhRMi1jUEJHOGd3aUJiMkZzQ0dpaEotcW5WOEFaOG5WUEdvenFOMnItRWlDRE5VTEJXU0lyWEtyUXkwTV9Wc2p4LWt4MktIWURJdGI0TWR0Y0NUY25jVlJtMEJ0dTU4S0lNYjgxYmgtWXVueVU4WFVjVWhyVTBONll0OF83Ri1WUUw1eEE?oc=5" target="_blank">Nvidia vs Palantir: Wall Street Says Buy Only 1 of These 2 Soaring Stocks</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></td>
@@ -606,7 +650,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>Billionaires Sell Nvidia Stock and Buy a Robotaxi Stock Up 300% in 3 Years (Hint: Not Tesla) - Yahoo Finance</td>
       <td><a href="https://news.google.com/rss/articles/CBMihwFBVV95cUxNbHY0YUVjNm9CSENQdkxmOEk3T2tsV01PU0ozQldDd1VIUGJUSmU2aktRMEdiZG9iSk41NFpGVm4tYXZEZjI1dWQxSjlubFgtREpmTEdVbzloMkZUZHExblY1OFZsVG9GbF9vYVVfaFNWNFpmMFJlQUVxdVhBdHR0YjFOTV94a0U?oc=5" target="_blank">Billionaires Sell Nvidia Stock and Buy a Robotaxi Stock Up 300% in 3 Years (Hint: Not Tesla)</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
@@ -616,47 +660,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nvidia</td>
-      <td>Dow Jones Futures Rebound, Oil Falls Amid Israel-Iran News; The Next AI Winners After Nvidia, Broadcom? - Investor's Business Daily</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWUdxc0JWSEhRZkc4MW8zYUhSTFp0Y09oa2N2ZjV6RzBPQVFzWElnN0hubkZKMXFlWXBHeHd0YmlEQ2t5Qi1jMUt6VEMycllhRzZlU1dpSW8xanZtYTJlODVaWWVuR2t0dGl4Y0NYZS04Sk9mdVB2dzBhd0c2ME00TmtKOUhBLVB4ZDlmeUQxLUszVnFpZ2VJT19laFhKa2ZZTEdDS2Mxc3Fna1ZPQ0ZoLVdkQ0NpaHFBUjU3eHdmRnNOTThDZzdveg?oc=5" target="_blank">Dow Jones Futures Rebound, Oil Falls Amid Israel-Iran News; The Next AI Winners After Nvidia, Broadcom?</a>&nbsp;&nbsp;<font color="#6f6f6f">Investor's Business Daily</font></td>
-      <td>0.774</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nvidia</td>
-      <td>Billionaires Are Selling Nvidia and Betting on This AI Stock That's Climbed Nearly 300% Over the Past 3 Years - Yahoo Finance</td>
-      <td><a href="https://news.google.com/rss/articles/CBMijAFBVV95cUxOd0wxWS16SGNpUXJIN2RIR0xaRW1xS3hiMkV2akk2QjhKSkVEWFd2MWhCTEdGOS1VSXBXczYwRF9pek43Ylp5WGdqNms2UkN4MHpuWlpaRjBYMURSV0IxUW42SEJ6eWw2LWViMVhYbTNjUzZVanRGRFM4aGtzdWQtcTN3WlYxMTZRLVVmcA?oc=5" target="_blank">Billionaires Are Selling Nvidia and Betting on This AI Stock That's Climbed Nearly 300% Over the Past 3 Years</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nvidia</td>
-      <td>Nvidia Stands To Benefit From Positive US And China Trade Talks (NVDA) - Seeking Alpha</td>
-      <td><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUNleWJWWDBRUmRJY3dHYng5UFplNVBhTERLTlFhNW5XeWF4ejRNZ045bUtpTUpsaGRUb1BybllWbmVmRHZ4d3U1NE5Gb3ptOWdyT0pTb3hZYmFFLXNtNnZCU2pKY3VKMWY3MEJwMkNiVTlyQ3hYVG1WZkVJUEg4aTNtWjRxQkJwOVdXWHhmd2ZIZ1NFRGdxcTdOZDFtS2ZyRHlUbjU3UGlzQ0FZSkc0?oc=5" target="_blank">Nvidia Stands To Benefit From Positive US And China Trade Talks (NVDA)</a>&nbsp;&nbsp;<font color="#6f6f6f">Seeking Alpha</font></td>
-      <td>0.922</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nvidia</td>
-      <td>Zacks Investment Ideas feature highlights: CoreWeave, Circle Internet and NVIDIA - TradingView</td>
-      <td><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOT3NGNkNHdFBqWWtNd295aWRVWmRPY0ZqUmtzR2hNYkZaS2hBMktwbzh0ZkJLUDItT3djVWs2VjJpWjc2Vy1ySklzZ3BWWE5vMl9SLWJSTXM1czRPSXdDa3ZOTHYtSjJJMG80UEpTQkRZSmVCQlJWbW1kaU4zYktERzR5RVJHcDhKNE5PTTdZcGR2M1hKUGw5c3Z4M0d4alB6aW9OMWtMVDNoeUcydmk5dlZqSFNhT0Raa0tybGtKSWJGWkhIU3Z0eVMzNTVIS3c?oc=5" target="_blank">Zacks Investment Ideas feature highlights: CoreWeave, Circle Internet and NVIDIA</a>&nbsp;&nbsp;<font color="#6f6f6f">TradingView</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>Super Micro Computer Just Doubled Down On Nvidia. Should You Buy SMCI Stock Now? - Barchart.com</td>
       <td><a href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcTJvcDd5YndTUXA4MUhTbnBMMTZteW1keVAzd1h0cnZteWNGa0ExTDhkcEg5RklpTTk4S05KYlpDcWoyYlZWYmYyMzdfSEUxMVNUb1EzaE80ejZXOUtfWHpPMDVsb0pkcDJ1c21YS1ExcVAzNGM2R3h3RFN0amI5ejhvTFJJWHF5M2pBRlhlZ2F6d21mQ0p4V0kwN1g4a3E2aFNPZXdUakZhSXlFLVFLSEdidjNiOUtVeGFfMXFDRmw?oc=5" target="_blank">Super Micro Computer Just Doubled Down On Nvidia. Should You Buy SMCI Stock Now?</a>&nbsp;&nbsp;<font color="#6f6f6f">Barchart.com</font></td>
@@ -666,17 +670,47 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Nvidia</td>
+      <td>Nvidia Stands To Benefit From Positive US And China Trade Talks (NVDA) - Seeking Alpha</td>
+      <td><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxQeUNleWJWWDBRUmRJY3dHYng5UFplNVBhTERLTlFhNW5XeWF4ejRNZ045bUtpTUpsaGRUb1BybllWbmVmRHZ4d3U1NE5Gb3ptOWdyT0pTb3hZYmFFLXNtNnZCU2pKY3VKMWY3MEJwMkNiVTlyQ3hYVG1WZkVJUEg4aTNtWjRxQkJwOVdXWHhmd2ZIZ1NFRGdxcTdOZDFtS2ZyRHlUbjU3UGlzQ0FZSkc0?oc=5" target="_blank">Nvidia Stands To Benefit From Positive US And China Trade Talks (NVDA)</a>&nbsp;&nbsp;<font color="#6f6f6f">Seeking Alpha</font></td>
+      <td>0.922</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nvidia</td>
+      <td>Granite Bay Wealth Management LLC Purchases 40,265 Shares of NVIDIA Co. (NASDAQ:NVDA) - MarketBeat</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUmFqdHJXamVpWlJqT3dGNEFWekc4aTNjcUdDTVR3UDU3a2lQd21HSmdLUzVsaHRSWHFRaDVLX19Oc2hYMDI3X2ktbVh6VWlZc1VZZnlHaDNISGZLRDZpMlYyOXpDSEFDb3hSa3pRNXB0RWFxTXJBTHJJZGVDZXRlaHV0eUV0MzdxNE0xaWFfemFBYTZybnRVck11d25vaU1laDNvZmF6czJoTTNnYjluRzVtTXpQSkRYR0JERWdrUFQ4UlRlVWxyb2psalZ2VU96Ulh3Nl90MUI?oc=5" target="_blank">Granite Bay Wealth Management LLC Purchases 40,265 Shares of NVIDIA Co. (NASDAQ:NVDA)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
+      <td>0.869</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>Nvidia's pitch for sovereign AI resonates with EU leaders - Reuters</td>
-      <td><ol><li><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHhqMU1rMlc2UDE2YVRwb2RuWEFxb3FIYWRBX0lnaWpVS1ZTRnZ0YnhqZnZ0ZW9HblI2UmVqUWozTUVCZHNNUlVFS19LN0JneklmOUpMcHhHQ1dIN2otR2RwbHE0RnBQVVJGOVQwZTMzVWNNVWxRU3Bua3FfMGE2eFphVGFrbUdkODJ1QzBWanNPQkVyZ0JqdEJxNXk2dnI4OWhqaHBpbEdkQzMwcXU4aQ?oc=5" target="_blank">Nvidia's pitch for sovereign AI resonates with EU leaders</a>&nbsp;&nbsp;<font color="#6f6f6f">Reuters</font></li><li><a href="https://news.google.com/rss/articles/CBMimwFBVV95cUxPek1tQ0p4WUxvak1yT0tzSDhiVTJDZGg3VzdyWlhNeVJUdVVtdTF0bVpHQWp6RDdnXzBKYWlySUxOS0xBVGVzWmtmSi0wdC1ySHRTWXFxblNXWkhaOWxGSWJWQzNDTksxNk1Ua2NpMXN2QTNjYjdUWlVIemFwWTc3NlEtSUxjZl9YTGlBY1VxZ1EwaDRNTzY4Vy1pONIBoAFBVV95cUxNb2MtWXYxU216X0tTazJLTnJ1a3hZMmZKUWIyN3lnVGVyM3NUSzVreGtXblk4WXVvWHBrdXVUU2daQ3FPWHB1RGZVTE1qSldxemllN1B2UFNKbGlYRGdrU3diRnphMk1HclM2d0RjSGg3VnRZTW9iblBtalE3eUpxVjVtS2s1cUlEZlVSSU45ZHFyWVNCZWdHT0ZodWFrdENi?oc=5" target="_blank">Nvidia-mania took over Europe this week. Here's what I learned from Jensen Huang</a>&nbsp;&nbsp;<font color="#6f6f6f">CNBC</font></li><li><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNbEt5VlFQREpwSF9rTVNPVk1YMWRrNjdLLXVpb0U0ODFHUHdlQ01YNWhaWm9XelpiWFZ3dWd1dFFpcURFMktLY2RuZlc4akFVOUtDSDFCOHlVMUJlQVN2el9tRF9xUENwaHkwVkliT205Q2U0TmliQTRkOGw0QXE1Y3lxa2xhdkxPbTI4MGU0ZUg2SXpLVmc?oc=5" target="_blank">Nvidia, Deutsche Telekom to launch industrial AI cloud in Germany</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo</font></li></ol></td>
+      <td><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxPOHhqMU1rMlc2UDE2YVRwb2RuWEFxb3FIYWRBX0lnaWpVS1ZTRnZ0YnhqZnZ0ZW9HblI2UmVqUWozTUVCZHNNUlVFS19LN0JneklmOUpMcHhHQ1dIN2otR2RwbHE0RnBQVVJGOVQwZTMzVWNNVWxRU3Bua3FfMGE2eFphVGFrbUdkODJ1QzBWanNPQkVyZ0JqdEJxNXk2dnI4OWhqaHBpbEdkQzMwcXU4aQ?oc=5" target="_blank">Nvidia's pitch for sovereign AI resonates with EU leaders</a>&nbsp;&nbsp;<font color="#6f6f6f">Reuters</font></td>
       <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nvidia</td>
+      <td>Nvidia stock closing in on all-time high - Yahoo Finance</td>
+      <td><ol><li><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQcU1XdEtyV3hpNEQyaW5oYVROcVhmeTJIc1ZhaFdWT0FFR095WmNJXzFFUTN6R19hYzBObmxNblVXbUZfR0Jnc05oaldBWVFsRmt1bmlqcGI2MHZEN3dfR1AwWTRGcTFFamZlelRiTTRycTllZTZkM2dJY2d1MUtmUU1HaEN1ay03cmdESS1naw?oc=5" target="_blank">Nvidia stock closing in on all-time high</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></li><li><a href="https://news.google.com/rss/articles/CBMieEFVX3lxTE1jaUlhOWk0NGFLbHZhYzJha3REYTc0d0RnYjE0LUwyZUhMZUhqT0g0WWRpTFBHQnlIbWV1TzlmaVc3aDlxX3VybmFSaTlkdm5JLVBxWkZfcFBKU3AyWktfUUtyY1N1WGkxdmROeWdITkVvYkRlREpwVA?oc=5" target="_blank">Nvidia Stock Rises. Why ‘Sovereign AI’ Has Wall Street Excited.</a>&nbsp;&nbsp;<font color="#6f6f6f">Barron's</font></li><li><a href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOY1RjZUIxR243RXoxX3Bpa2xCVGt3MkNMQ2pqakMxOTVvYW9tZTJzTlkwRHlsT3pVNzlIc3dwWS1nNk1kMjRPVnlwVHJPUy1fWE5WTUNOM05jZ1ZXUmIyMGRmUDdORl9DbGFVSU1sajhCakplX19KUWJwdkY0bVlrWGZVYzdBdUpydjJpa19SMHJyZS1pd2ZPcg?oc=5" target="_blank">Should You Buy Nvidia Before June 25? Here's What History Says (and It May Surprise You).</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></li></ol></td>
+      <td>0.470</td>
       <td>1</td>
       <td>HERE</td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>AMD launches new AI chips as UALink rallies industry support against Nvidia's ecosystem lock-in - digitimes</td>
       <td><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQdktZMFhEaXlrRkZESkRZQlhPNUpsNHR6cmM4UGhacUZLWjB1OHNfeWVEdzRkblkxbzM2UnRDLXRwMENtM1YtT2liTnRKbEY0OFhCLWdWX05HUjNDTkxVaTJSdDhPS29KQjd1VDNVOExzMlpfLTYwaXE0Ql9MLWdWc3lIbWtQM1dCQ3RxcHFyR2xzNGswVmc4U3dwaDFvUQ?oc=5" target="_blank">AMD launches new AI chips as UALink rallies industry support against Nvidia's ecosystem lock-in</a>&nbsp;&nbsp;<font color="#6f6f6f">digitimes</font></td>
@@ -686,27 +720,37 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
-      <td>Trying out Nvidia’s RTX 50 Series GPU on a Falcon Northwest gaming PC | review - VentureBeat</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSlUyMi1lQkI4WnJvZ25SNHJRX0t3WHVCMy1mVXk5WmJUYjFNSTFUZjBNX0FPTnA1SWJVNlo4Y2dEU3dQdllQQjBDWExVNGhTREpQSHVxZV9Ga0JuaXNCVnRSSVNEenNFNlh3b1VEcXowcWJxTFJtT2JJaGlpVFpTMXVTRHNtanQ2aUFpdTRVdVdFdnZIRWoySTBXT2xvMmdSRmR6d3N5TEp2Zw?oc=5" target="_blank">Trying out Nvidia’s RTX 50 Series GPU on a Falcon Northwest gaming PC | review</a>&nbsp;&nbsp;<font color="#6f6f6f">VentureBeat</font></td>
+      <td>Zacks Investment Ideas feature highlights: CoreWeave, Circle Internet and NVIDIA - TradingView</td>
+      <td><a href="https://news.google.com/rss/articles/CBMizwFBVV95cUxOT3NGNkNHdFBqWWtNd295aWRVWmRPY0ZqUmtzR2hNYkZaS2hBMktwbzh0ZkJLUDItT3djVWs2VjJpWjc2Vy1ySklzZ3BWWE5vMl9SLWJSTXM1czRPSXdDa3ZOTHYtSjJJMG80UEpTQkRZSmVCQlJWbW1kaU4zYktERzR5RVJHcDhKNE5PTTdZcGR2M1hKUGw5c3Z4M0d4alB6aW9OMWtMVDNoeUcydmk5dlZqSFNhT0Raa0tybGtKSWJGWkhIU3Z0eVMzNTVIS3c?oc=5" target="_blank">Zacks Investment Ideas feature highlights: CoreWeave, Circle Internet and NVIDIA</a>&nbsp;&nbsp;<font color="#6f6f6f">TradingView</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
-      <td>NVIDIA Co. (NASDAQ:NVDA) Position Lowered by Grassi Investment Management - MarketBeat</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOSzVOdTUyQkMxMnRoelR0THBmVVdpbkVZcmZMVy1ZRzZUcVNDT2MyUTVvTjBZY3JMWGladDNnOUJMdUkwNmpwTzRiN2tFTW5RQlZodmY2QWUxU29BTEg2QURtNmh2eXFpb0FuNW5ZSHhobzZkU1ZETkU3YjBjSkFiUkpUWm51NG9FS1pMVmwtWGFxeVR1eWlGLXZ5dUFNRUt1TTUzU1Jad1Vlbjh0elM3UWVJd2VCeVpTNWtCTzV6TU5PRW83OGo1SEdR?oc=5" target="_blank">NVIDIA Co. (NASDAQ:NVDA) Position Lowered by Grassi Investment Management</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
-      <td>-0.250</td>
+      <td>NVIDIA Toyed With A 20GB GeForce RTX 3080 Ti And This Listing Proves It</td>
+      <td>Yet another GeForce RTX 3080 Ti graphics cards with 20GB of GDDR6X memory has broken cover, suggesting NVIDIA at one time considered releasing such a variant.</td>
+      <td>-0.477</td>
       <td>0</td>
       <td></td>
-      <td>RSS</td>
+      <td>GNews</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Nvidia</td>
+      <td>Bank of America downgrades hot IPO and Nvidia derivative CoreWeave, citing valuation</td>
+      <td>Shares have advanced more than 36% in so far in June.</td>
+      <td>0.494</td>
+      <td>0</td>
+      <td></td>
+      <td>GNews</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Nvidia</td>
       <td>007: First Light developer IO Interactive’s Chief Technology Officer says the Hitman studio is ‘working with NVIDIA right now’ to make the game look mind-blowing on every platform</td>
       <td>IO Interactive’s upcoming 007 First Light showcases the power and flexibility of its proprietary Glacier engine, enabling high-end visuals, seamless multiplatform support, and rapid real-time development.</td>
@@ -716,7 +760,7 @@
       <td>GNews</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
       <td>Time To Buy Qualcomm Stock? - Nasdaq</td>
       <td><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTE16cmlxYzQ2a3lJbkJlSTBQQi1uMDAyRDQzNml1T3lmVmtPamo3ZmpERGEtMVdPSGdzOWdROFRJeEQzbEFrVjlmYXNTek5uZWk3LTBLYWFtQVhWR2lNLXFFcGFmSjJsUQ?oc=5" target="_blank">Time To Buy Qualcomm Stock?</a>&nbsp;&nbsp;<font color="#6f6f6f">Nasdaq</font></td>
@@ -726,7 +770,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
       <td>Precedent Wealth Partners LLC Increases Stock Holdings in QUALCOMM Incorporated (NASDAQ:QCOM) - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMi5gFBVV95cUxNQVg2WHNEX2hiOFFxZENqU1VIcnVwS3I1MzVoX1dpdl9yQjNjWnFYSVFwM29wTGV5Tzg0M1BUeExycFFNZHpSUEtoRTBiLXMyYXpnUVE4TkF2Z0NLOVFKSDl6cF80Wi1ydTFRTzBXeFpOUWRTcEx5NUFCVDdaQkwwOGgxRkNVV3dnVFYySXBTNWhLXzhFQlZ4ZDVobEItenJCWXRfbUcxcHRWdHB0MG9uVnFteWJ6S3k3d3dKYW5oVmhIeUpKdmxEOTFQem1TemMzcDA1aGhGTnhtdUtUUnVqVGpGbng2QQ?oc=5" target="_blank">Precedent Wealth Partners LLC Increases Stock Holdings in QUALCOMM Incorporated (NASDAQ:QCOM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -736,7 +780,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
       <td>QRG Capital Management Inc. Boosts Stock Holdings in QUALCOMM Incorporated (NASDAQ:QCOM) - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMi3gFBVV95cUxOY2RFN1dISGFOR01XWFUyTEJnWnBrYnl2V3liTmxIb2JDU2w1akp0ai0wOXhxWDQ2RnZFcjRzcTl5LW9PbTFkQzdmTUlCRjF3QTJ0dHA2dDdGU0s4VzBOZDhCRlVuOF81T3pnX0RlcnphVURpOWxoWmpnZVU3OWVjQ3JsQlg2SkNfNlpZM2g4dm9uM29pQlpNdGlrR0c3clBGN1dHV1RQLVFtbHhEX211ajBpU2NuWTU4a2RwY2Y4d3gzWVZxTy1CMTczZTY3SnBieEJHZklrODQzdFhJSVE?oc=5" target="_blank">QRG Capital Management Inc. Boosts Stock Holdings in QUALCOMM Incorporated (NASDAQ:QCOM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -746,7 +790,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
       <td>Trust Point Inc. Sells 1,830 Shares of QUALCOMM Incorporated (NASDAQ:QCOM) - MarketBeat</td>
       <td><a href="https://news.google.com/rss/articles/CBMiygFBVV95cUxOWmJiTFNtLVVxT1h3NVJtQW53S25vVy1Md3RLNk9NY0RNZVYtcWhTenlpS0RvTmxJWTFQQlBmNlc5T3lWRE5GZmJ0ZFNuV2JBRVhNSW1Dd21MbTRTU2cwcmV6MGRwX3hzRllRRUxKVjNBRjVqM2hSN20yUjhKbGhjMmQ2S05pVjJsUEFhOFJjTXVWeDBJRzFRajBwaEhKQzFOcWJNczVYLVN6VDFzQW1nejJyaEFaUlBFc041R3FjeEh3QzFlZU1OcFFn?oc=5" target="_blank">Trust Point Inc. Sells 1,830 Shares of QUALCOMM Incorporated (NASDAQ:QCOM)</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
@@ -756,27 +800,27 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
       <td>Qualcomm’s SM8845 Might Be The Snapdragon 8s Gen 5 And Is Rumored To Deliver Snapdragon 8 Elite-Level Performance, While Utilizing TSMC Newest 3nm ‘N3P’ Process, Oryon Cores & More - Wccftech</td>
-      <td><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQamMwbWNJR0gwaV9VQ2FFQkhiM1Y2dDU3Sl9OUFFTd0dfdm5HM3VqQV85VWVGVk1yV0RYSzRDUWpCdEtMaU5udWhUTjBfTVV1ZW9SbEtLaFJlTXVKTGdPbUhGc1o3bW9EdzNBdVhNSWp2Tk5wU2hTRXBtQTRydGtiWDQ2N01LT3c5dHlTaDh1NzZ4Y2k4RUYydnlBazNnQQ?oc=5" target="_blank">Qualcomm’s SM8845 Might Be The Snapdragon 8s Gen 5 And Is Rumored To Deliver Snapdragon 8 Elite-Level Performance, While Utilizing TSMC Newest 3nm ‘N3P’ Process, Oryon Cores & More</a>&nbsp;&nbsp;<font color="#6f6f6f">Wccftech</font></td>
+      <td><a href="https://news.google.com/rss/articles/CBMingFBVV95cUxQamMwbWNJR0gwaV9VQ2FFQkhiM1Y2dDU3Sl9OUFFTd0dfdm5HM3VqQV85VWVGVk1yV0RYSzRDUWpCdEtMaU5udWhUTjBfTVV1ZW9SbEtLaFJlTXVKTGdPbUhGc1o3bW9EdzNBdVhNSWp2Tk5wU2hTRXBtQTRydGtiWDQ2N01LT3c5dHlTaDh1NzZ4Y2k4RUYydnlBazNnQdIBowFBVV95cUxOblJRSXBrNmNTcmxzVUl4S3dGOXZlZWJLVldMOVUxbl84RXBpM0duNllBZXoxaTRGME1TR1hFdDExQUU4VmwtVlhCZXJDeVRsQnRNU2ZZamhUR0tVUGgybjBZTTFERzFOWGtPLWktU2FPSnFKR2ZfQ1dmbkN3dHhfMEt1M3J0ZDd2SXB4azdTV2JNTW8xbmVtUHl4UXdfWXlYUGU4?oc=5" target="_blank">Qualcomm’s SM8845 Might Be The Snapdragon 8s Gen 5 And Is Rumored To Deliver Snapdragon 8 Elite-Level Performance, While Utilizing TSMC Newest 3nm ‘N3P’ Process, Oryon Cores & More</a>&nbsp;&nbsp;<font color="#6f6f6f">Wccftech</font></td>
       <td>0.000</td>
       <td>1</td>
       <td>Snapdragon</td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Qualcomm</td>
-      <td>Who Makes Snapdragon Chips & Where Are They Built?</td>
-      <td>Snapdragon is a product of American company Qualcomm, but the chips themselves are built by TSMC and Samsung Foundry, both of which have global facilities.</td>
-      <td>0.000</td>
+      <td>Snapdragon "8 Plus" tipped to debut in late 2025 for next-gen Android flagship killers - Notebookcheck</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiyAFBVV95cUxOMHNjdU1SdUFnMi0xNVhhelVtQzNnSnVCbXIxOGpVQURlWHFuMmNoUUhwWW50ZGhMbXRLSHV2Qk95RXlMM2xBRkVYakpSdXZVeG41MnA2OVhzR3JORDZKMzdfVDJYQ1hmcTUtMktFbzhQb1hfcEVRdWRIWmphVlZUbXBUSk43bmZHZ2pRVWRNN2NlOC04Z1lrd0ZTSk5BZDFYanoyc2tHdEJKcExlTk5TdU41OHNVejFLYU9BdG5idHhTMkpwb3VfOQ?oc=5" target="_blank">Snapdragon "8 Plus" tipped to debut in late 2025 for next-gen Android flagship killers</a>&nbsp;&nbsp;<font color="#6f6f6f">Notebookcheck</font></td>
+      <td>-0.542</td>
       <td>1</td>
       <td>Snapdragon</td>
-      <td>GNews</td>
+      <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Honda</td>
       <td>Tariffs, EV And China Risks: Is Honda Stock Still Worth It? - Forbes</td>
       <td><a href="https://news.google.com/rss/articles/CBMitgFBVV95cUxNZDBRM3lqbkJnTUJGRmV3UGRuY0JnUjd1ZlRnbU00aGJVVHVyOHhXTHR5cTNZdUdLMnlsVUJ3Yi1qTnVDRE1LX3BTT2tseXE0TGl0cUlOdUFaM3c1R2wxZWk2Z2ZWSTNyYzBoVDlIZUJXeTVTTXItMFEtTEkteGxhd3U4eDhZZ3gtaTFkN0NjaWtsMUpyRzFNLWpVX1pDVXUtSEpwajFzS05aR0dRd0czUEVUSGNkUQ?oc=5" target="_blank">Tariffs, EV And China Risks: Is Honda Stock Still Worth It?</a>&nbsp;&nbsp;<font color="#6f6f6f">Forbes</font></td>
@@ -786,7 +830,17 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Honda</td>
+      <td>Honda’s Futuristic Super EV Will Star at Goodwood - autoblog.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ0IxRGxCbF8zV0x5RmF4dkxULUFTSVBoWDFHOWxESE1LMjk5QmV2bkpTakRDNlhjOVVIeHhSOUt1b2tZSDdaM0ZnbzkyNGlWUk0wd3Q1eDZKZ0R2WGx2TTlRWjJaN3V6em9xdnFoUDhxRXp5Zy00bGIyZVBwVU94QjhCbi1pZ1BkTy1XejhOZlZZanc?oc=5" target="_blank">Honda’s Futuristic Super EV Will Star at Goodwood</a>&nbsp;&nbsp;<font color="#6f6f6f">autoblog.com</font></td>
+      <td>0.832</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Honda</td>
       <td>What If Honda Built a V-8 Ancestor to the NSX in the 1970s? It Almost Did - Car and Driver</td>
       <td><a href="https://news.google.com/rss/articles/CBMifkFVX3lxTE5XbTctNC1iLTB1bFFzU3dCa0hRMFJQY19FM2xBeVNHbS1KcE5qUW5ieEl6TzBQTFAxS2NleGZmdDdmS3RmN3BPd0htNUQ0UWl6QmhnclZjaEMzYTFGTDMwcFNZSS1WNWRvTVFEN1N0Q096XzNLRW9mVHRTemEtdw?oc=5" target="_blank">What If Honda Built a V-8 Ancestor to the NSX in the 1970s? It Almost Did</a>&nbsp;&nbsp;<font color="#6f6f6f">Car and Driver</font></td>
@@ -796,7 +850,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Honda</td>
       <td>‘That’s Not Normal:' Woman's 2014 Honda Civic Keeps Stalling at Red Lights. Then She Asks for Help - Motor1.com</td>
       <td><a href="https://news.google.com/rss/articles/CBMiekFVX3lxTE1XZnR0QldUUHR0YnFiN0VINEtfenNxeGw1S3hBdzB6X3Nxc01kREhBM1BNR2M2d19XM21EMGJTLXVMWEMwVEpwNjBpcDkxYnJuaWZHRnVBQUxDSHJpZWt1bHBlcGYwc1cxZTlBQVlaR25KSGVmVzd6R09B?oc=5" target="_blank">‘That’s Not Normal:' Woman's 2014 Honda Civic Keeps Stalling at Red Lights. Then She Asks for Help</a>&nbsp;&nbsp;<font color="#6f6f6f">Motor1.com</font></td>
@@ -806,7 +860,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Honda</td>
       <td>Archives Column | 1973 Honda CL450 Scrambler - Cycle News</td>
       <td><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmotS3N1dlRsMnZHTkZsMl94SXNEN19yYXJ4QnRXcU10N05NbE9YZ2hCRnctd1Nabm9ESm5GY2hJWjJ1T1UwVjMtZzVRaVdWa1pQc3lDLXZPOVBYbnV0TWpSRzdhTDQ0ZDRrbFlETmxWUGJDUXZ4YU9XTWYyVjE2QlRXV2hBTWtqM3Fxdnln?oc=5" target="_blank">Archives Column | 1973 Honda CL450 Scrambler</a>&nbsp;&nbsp;<font color="#6f6f6f">Cycle News</font></td>
@@ -816,7 +870,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Honda</td>
       <td>What SUV is big enough to fit two bikes and a dog and comfortable and quiet enough for a long road trip?</td>
       <td>A couple is planning to drive with their dog and bikes to California and need a comfortable ride. Mark and Miranda look through the options from a Lincoln Aviator to a Honda Passport</td>
@@ -826,17 +880,7 @@
       <td>GNews</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Honda</td>
-      <td>Why Does It Stall At Red Lights?</td>
-      <td>A woman's 2014 Honda Civic keeps stalling at red lights. So she turns to the internet for help, and actually gets good advice.</td>
-      <td>0.459</td>
-      <td>0</td>
-      <td></td>
-      <td>GNews</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Lucid</td>
       <td>Lucid Air Finally Gets Android Auto: Wireless Support and 34-inch Display Integration Arrives - Stock Titan</td>
       <td><a href="https://news.google.com/rss/articles/CBMisAFBVV95cUxNaDJBU2M5TkNWSlc4NzFEYnQzUHpobG13NF9xR0IzRzZkSGtabWRYOHI4OHBhUm52N2lCM0s4UXRFR0MzTjhLNVVVT1lUbElYeGY3bFc3eXEwYXZwei04WFU3TUlJX2U3YTZmVmF3bFpDX25pMVRpOGpKeGdZSlVXSjRoSWZWS25iSXRHUXg4SWRubDFwZHpuVksyR0UtdFpSTzdyNl9GY21qN2hpN2JMRw?oc=5" target="_blank">Lucid Air Finally Gets Android Auto: Wireless Support and 34-inch Display Integration Arrives</a>&nbsp;&nbsp;<font color="#6f6f6f">Stock Titan</font></td>
@@ -846,27 +890,47 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Lucid</td>
-      <td>Lucid Motors Just Nabbed a Major New Deal for US-Made Battery Materials. Does That Make LCID Stock a Buy? - MSN</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcGwwWU9oYkl6d2NwOWlOMTJaLVNpUHZ0VDlaVGh0VDFTNDJCUUwxZDBrWXJ4TmtnMzctV3p1c3diVk5WVVB3TWpfRmxucW9LYXhOandMdms4NTZqZXFrcFVPd0ZKem5ZNjQ3bVFGOFdZVldKeHl2VG5Bc2hqcVRDN29FVjBxdUlkNzNWaDk3T19jNUdsQWF4bktzMUs4WmZyam4xcEhVa2dkSjVKUG9tWDFyYm4tZGNWNkpZVWtocHRzOVBhUmN0YmE3M3h4UzdZRUV4Nmo1MWxqRGYza3NCR1VzUGY2d1IwYnF5MkFR?oc=5" target="_blank">Lucid Motors Just Nabbed a Major New Deal for US-Made Battery Materials. Does That Make LCID Stock a Buy?</a>&nbsp;&nbsp;<font color="#6f6f6f">MSN</font></td>
+      <td>Android Auto™ Compatibility Now Available to Lucid Air Owners - Yahoo Finance</td>
+      <td><a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxPWEFPYm12anNrMDgzNUI3em5OdU5MQ1RURkg2OU54VzUxSjByRHByY0JWXzdrWm50NWdLT3pDSlJ0dVlZRl9XTFl4cWhjUjJJMzdsd1hkNzVBSy1LdnFUTTJ6MnZlM1lDMEpQQTRucG8yeHcxV0Z2MFdmU2R0aE5pSk5ET3I3RHlrWU80RlBCNA?oc=5" target="_blank">Android Auto™ Compatibility Now Available to Lucid Air Owners</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
       <td>0.000</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Lucid</td>
-      <td>Lucid Group (NASDAQ:LCID) Stock Price Down 1.2% - Here's What Happened - MarketBeat</td>
-      <td><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxNMXhQelNXYy00Z0k1cHNNUG1BMHEtNEFtWTJqRENqY1BUdjNQYkxoN3hsZTZVTlA0OHJOTUMzRHRTYkZNQXpxNFlDMURCdVlIQVdBT2k3VWJEVGVDOHl1d1RKbS15bTlNNW14UXZvaFhfbE9aSjdSdVFyaHhOeFBsZDR1cEZXWUE4TzdlY2pNMjl6eEpKaVJ1Z0tpZ1NYZVdNZjJFNjhwZw?oc=5" target="_blank">Lucid Group (NASDAQ:LCID) Stock Price Down 1.2% - Here's What Happened</a>&nbsp;&nbsp;<font color="#6f6f6f">MarketBeat</font></td>
-      <td>0.000</td>
-      <td>1</td>
-      <td>HERE</td>
+      <td>After a delay, Lucid adds Android Auto support. - The Verge</td>
+      <td><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDlRa3ZPWXgyWjlQZXQwaWdNS0k3WFlCb19BbzRFVGgyUGsyWUFPMUpVX1cyU3M5OGc2NWk2LVlTay1BOV9Bb2ZLR0lNSExRTGxoU3M2Y1gwdjZGNXY4eEwyWVJsWEZ6dmhGOW9JckU4b21JNDU1OGQzMEFYNC1GcUlpZjJ2dHhwZm5ISkNuTjZCdV91SWc?oc=5" target="_blank">After a delay, Lucid adds Android Auto support.</a>&nbsp;&nbsp;<font color="#6f6f6f">The Verge</font></td>
+      <td>-0.226</td>
+      <td>0</td>
+      <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Lucid</td>
+      <td>Lucid Ramps Up Hiring With Nearly 800 Open Positions - eletric-vehicles.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMikgFBVV95cUxNNDNoVThGNFRNSmpjdkVDNG80a1o0WHlCSVl1c2M1WVBjeWxyYm5lOEdoTVpuOHZjNkRrN3d4MEIzOW5xTmRkWkhvT1I0ZmRjMFJQUmhURDMzNmhQaW9ncFVCTGc0N0ktYWwxUDR6YnFrWVl0dmI3UlBvOWZjWmRLWG1xQWRBel9tbTFGY2JiOU00dw?oc=5" target="_blank">Lucid Ramps Up Hiring With Nearly 800 Open Positions</a>&nbsp;&nbsp;<font color="#6f6f6f">eletric-vehicles.com</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Lucid</td>
+      <td>Android Auto is now available on all Lucid Air vehicles with latest update - 9to5Google</td>
+      <td><a href="https://news.google.com/rss/articles/CBMickFVX3lxTE9xTmxLbWYzVFA2NzA1QWVic2s5Z3NSSFN0c0JmY2piZzhtNm1xN3ZseTdGUDF1VklCOUpOa2pXOHlGWlRNQ1RUT1dCZGJSZm1tZnNfeXI0ZnhFSjNNb0xta2RJaU5vYWlHQlFHTzF3aDJXZw?oc=5" target="_blank">Android Auto is now available on all Lucid Air vehicles with latest update</a>&nbsp;&nbsp;<font color="#6f6f6f">9to5Google</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Lucid</td>
       <td>Is Lucid Stock a Millionaire-Maker? - The Motley Fool</td>
       <td><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQQ1NQbGtqUzBQNklDWHBjRllCTWlXMGp2bDFWdGVkVWR1bWlaSEQ4eVdtcU05QWc2eXJOendLV2RjUS1SUlhxX25Sc3REYURTQ3RIZXhqMzNjMkcwTTFrSVpMOWhPTzI2WjgxNDE4TzZSSUg3Ny1ZU29ZVmw2YTJlc1dBZw?oc=5" target="_blank">Is Lucid Stock a Millionaire-Maker?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Motley Fool</font></td>
@@ -876,17 +940,57 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Stellantis</td>
-      <td>Stellantis still on the hook for California EV rules, despite relief for competitors - The Detroit News</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVVl1VlNtZlBENm4wOXNGR0Fuc1BVeURTa0JsRWx5QzVOMXJ3WHdxcWJWcktMbVN6YWNZWW1ISGtPLTFlaUNRbzJtSkVQRnlfaFpMeEs5Y1R2Yk14ZVJHVmR6YU9jRkIyaE1QME5NVW1UOVZLdUZwM1VwZXlJcEdIRW9jZTZMSmstb01kSG5JMkl0em5HWUs4N1VxcWdtOWl6X2JsMi1DTUZsbTBKb2gyUFMzVl9oYk13TllORGh2dG9XdFJJZW5JZ1hTTURiRm5keGZnNmFPdHFJdm9PNGJRQWdPUQ?oc=5" target="_blank">Stellantis still on the hook for California EV rules, despite relief for competitors</a>&nbsp;&nbsp;<font color="#6f6f6f">The Detroit News</font></td>
+      <td>Stellantis still liable for EV rules, despite relief for competitors - The Detroit News</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVVl1VlNtZlBENm4wOXNGR0Fuc1BVeURTa0JsRWx5QzVOMXJ3WHdxcWJWcktMbVN6YWNZWW1ISGtPLTFlaUNRbzJtSkVQRnlfaFpMeEs5Y1R2Yk14ZVJHVmR6YU9jRkIyaE1QME5NVW1UOVZLdUZwM1VwZXlJcEdIRW9jZTZMSmstb01kSG5JMkl0em5HWUs4N1VxcWdtOWl6X2JsMi1DTUZsbTBKb2gyUFMzVl9oYk13TllORGh2dG9XdFJJZW5JZ1hTTURiRm5keGZnNmFPdHFJdm9PNGJRQWdPUQ?oc=5" target="_blank">Stellantis still liable for EV rules, despite relief for competitors</a>&nbsp;&nbsp;<font color="#6f6f6f">The Detroit News</font></td>
       <td>-0.626</td>
       <td>0</td>
       <td></td>
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Stellantis</td>
+      <td>Stellantis’ new marketing VP on its emboldened ad plans and jump-ball agency approach - Ad Age</td>
+      <td><a href="https://news.google.com/rss/articles/CBMidkFVX3lxTE5wWWp3Yl9HTkFhS3E4Ny1nNVJmWkNLSmphWXp2cW10R0x3b2x1bmZScWhHZWNfQ1FkbEpNdXQtcVpBNWt5Z2d6WDNUV3FPU05TcHN0cEF2OWctOS1Fc0VGRzBaTkhIV05Ja1NhR3N0eVBTZG5rNUE?oc=5" target="_blank">Stellantis’ new marketing VP on its emboldened ad plans and jump-ball agency approach</a>&nbsp;&nbsp;<font color="#6f6f6f">Ad Age</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Stellantis</td>
+      <td>Stellantis Restores Full Production at Windsor Assembly Starting June 23 - MoparInsiders</td>
+      <td><a href="https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUozU19yZVMzeHd3VUltWE5zOFk0RS1iX21WTFA5MXFOMnp6d3dWSXpBSUZUdDVxMDU1YWd1V0JLOU5YbVhJeDJONENwMlhGeG10TU5td1o0YTNqSWowQWtYVXJ0b2xIbjNjbDF0TkFRZXBVbERIWEdCY1NLT2ZVZ1EtWDVkTE0wdDBvTWI2Z0FzMkt6S2lrOTJ4TENXTHd1?oc=5" target="_blank">Stellantis Restores Full Production at Windsor Assembly Starting June 23</a>&nbsp;&nbsp;<font color="#6f6f6f">MoparInsiders</font></td>
+      <td>0.527</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Stellantis</td>
+      <td>Time Is a Circle: Stellantis Snags Patent for Three-Speed EV Gearbox - Motor1.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiggFBVV95cUxNZTZDbXNacEJ0Q0tFU3ZSZ2ZFazYyclZVYk5OWmRWaExKLVNYYTFtVG5hSWRNTFIxYlJ4LWdHU0dBb1pCdlVmUFd0dC1VclF6R3JfU2locXFjRzdaRTAwZFg5NDhPWXJ0SjZiUURWbUdDMUpPUVFuV2tyTk5YZjIxNHZn?oc=5" target="_blank">Time Is a Circle: Stellantis Snags Patent for Three-Speed EV Gearbox</a>&nbsp;&nbsp;<font color="#6f6f6f">Motor1.com</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Subaru</td>
+      <td>Subaru Leans In On EVs With The Trailseeker, An Off-Road Destined SUV - Forbes</td>
+      <td><a href="https://news.google.com/rss/articles/CBMivgFBVV95cUxPVXpsOVVzVEJydEFqSDZSV2ZqZkNoTTVRd3ZPXzE4SVRhX2VZZ1poSDlBZk96UU1ZWWw3RG9ieDRoLUlEemtPMlNzZmFMcW1lVlBrb0ozRVgyQ3U4aDQ4MlFvejZuVGtQZVI4WWZ5UUlCZEJSR3BQU3o4Ul9Pb3YxNmsyYVNUWjkxVmtDMTJDaWJYdzVVZEhtUjFWTnVfMy02MThuTHNuT3BzM1lnZXo5VTJaWTNWSlBnakQtMkt3?oc=5" target="_blank">Subaru Leans In On EVs With The Trailseeker, An Off-Road Destined SUV</a>&nbsp;&nbsp;<font color="#6f6f6f">Forbes</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Subaru</td>
       <td>Tunisian Air Force signs purchase agreement for 12 SUBARU Bell 412EPX aircraft - Vertical Mag</td>
       <td><a href="https://news.google.com/rss/articles/CBMiugFBVV95cUxPT192R05URTQwZmk5SzhGQ0JiTFEtVy1QTGwxWFhudWNSQTdhVHpqU25yZXZEZGZfTU9ocjVNN0VVb2ptcmRLOFpYTVJ5NWFFVXdrazR4elU1emRoeG1zTUpCYUVzMDJuTmxnendOeVpTYnlzVUxXZlJjeXpYN0FhZ29YcnpTcWNoMWlhb2hENjN1bGJHbUhZWE91eDVnaVowalpZYTZpdmV2YUhnckhmSVRWbFRnY2NvUXc?oc=5" target="_blank">Tunisian Air Force signs purchase agreement for 12 SUBARU Bell 412EPX aircraft</a>&nbsp;&nbsp;<font color="#6f6f6f">Vertical Mag</font></td>
@@ -896,97 +1000,7 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei - Yahoo</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxONUpKR3JZNzJoQ3lfU1d1bm1QaXlmRWFpWmxCUGxRYkRKMzNWam1Gc0VLUTdoMGdBbXVtUUFzSF9QZERqOHVtNHF3YTdGQk1MQmdBcXlCNF9DSXFBdkM4Z3JvaWZTdW0zU0hieVNCdjkzdVVFbUNjS0dZTTc4YngxbHVFVXYyUGtYLVE?oc=5" target="_blank">Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info) - Seeking Alpha</td>
-      <td><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXhiTzlGanh4dWV3YzltaHEtVXB4bVlFaXY5dnBTUUluWGl0eEpWUHpLMTdIZTVLc3ZkN0VBUjI1Z2hTeUUzdTRGSW45VFpvZWYwUkx1WkFCR3hJN0lubXhBUkhLOXEzZkN1RHFPbklLakFwZHV4emwwbUdReGl0ckg3V3hJSFNETjVpWVd3UG1uLS1vNXcxQTdtdEZyb19rNmlhbHdJS0RTbnBlRE9V?oc=5" target="_blank">Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info)</a>&nbsp;&nbsp;<font color="#6f6f6f">Seeking Alpha</font></td>
-      <td>-0.718</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei By Reuters - Investing.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMivwFBVV95cUxPS1Z3NS1pQkhsQk9iTGFtZHd3d0p4VU15X3E2T2VwaWdTZ0dxcGxDckFuWHRQN0U0UDN4UmxKVC1jOWJLWTdsaG9wem9yUXdlTDIxLVRwVXRzTVM5Vl9RdDU1T0l5N0pmRGh3d29xNWQteEJ0bV9oZVdxZnVwUHlXcVJqWDllX2hlSFZZd2l2TVVqQnI4cmZWYWh6dWFXUU9YUFJEb2I2YW5GMWF6N1dzWkJ4SXRuRXJ2YTVFOTVUUQ?oc=5" target="_blank">Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei By Reuters</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan Reportedly Plans to Cut Stake in Renault to 10% - marketscreener.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUNnLVBvb1B0a3lXOHNqZndidE9mZVZsT295Z19YSDg1SDczY0x2QzhTMncyQ0VvVzNPNEkzcC16NlRvTnd3bWd3S0pSeVJvaFpONFJsdVZLdG5tUmpvZnpQVlU2djQ3MHNYMnhaaUV3Nldjb19la1NLajNvS3RRSl93X0QyVGRLa2lrZWdkMDJYYS1CUzZLWGZ3LXVIUGZuVzM3dW5HWTR5MUNrbF9iVzNQQ0hXOTJaM3FyZDRPcDM3STNTZzBEUUQ3WWY0dTVjaUdHX1ZB?oc=5" target="_blank">Nissan Reportedly Plans to Cut Stake in Renault to 10%</a>&nbsp;&nbsp;<font color="#6f6f6f">marketscreener.com</font></td>
-      <td>-0.494</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan (NSANF) Plans to Decrease Its Stake in Renault | NSANF Stock News - GuruFocus</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNWUwYi1FR08xNk40b3JVaHR4WmlZRThxV1J5eFVDTEdrcjRMT0FGY0puVVRiMHVrWi1vd2hFUlBSZEJXYlJmSTVpcmc2NEh0aWc0ODcyU1ktbjRwSmJibWxxLS1sLVdraEdBUWZydW9MdlRJbmRGSHlJYWxqM2t0ZU9JbmVVTG9VZEF0SzJ2Wlo2dGVEYk5zWnZISG1TeGhad1JlQXhJUGVhWm8?oc=5" target="_blank">Nissan (NSANF) Plans to Decrease Its Stake in Renault | NSANF Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan plans to cut stake in Renault to 10%, looks to raise $640 mn: CEO - Business Standard</td>
-      <td><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnVsWGxrZDUweWNZWXZtdDlTTGpGLUVVR1pwZFBfYlliNkpNQjVqT0V3X0RiRGEtTXNFLThLX25FdXcyMlNlVWs5WWhVNTVCRGtvemhPYWs0aVd4bGdxU28yei0xTU5GRkVfcnpVTzZpQV9CaXF3UUxUcTR3TFFBdkVVTUpkVk1xY2VxdmxNOExkaXFhWWluMWE5NkxVLWFWak1TRDZ3YnFzQlg1cV95U0hzdTY0eENVQ3JpUFlVX0NDQ3VVVkhhZzc0QmZ1d9IB0wFBVV95cUxPNGwwS1RwYndFbzh5Z1JXUVRFOXZIUG9URTJPOTlYU2I2cVdBUFprd2pMMGgyZ0RHZGFhblcydnNqYU41YnI2MlE2bkxoejBGSnhidzVrWXJrazlWMDBvczJaMTRhVURiRGM4QzdSMjRsWEY2ekxIanRaTWdPVXNkM1ZEdXYwQmhWYUZsaWthd3NCYUFZVm9fVDBSTTFDdFlSVld2V1hOMFliOTJsY2FGUF8xZUY3alNVNmZmYkxvYTRfdG5QdFVHcFZKc2dtTzlQQUxB?oc=5" target="_blank">Nissan plans to cut stake in Renault to 10%, looks to raise $640 mn: CEO</a>&nbsp;&nbsp;<font color="#6f6f6f">Business Standard</font></td>
-      <td>-0.494</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan Launches Killer Frontier Lease Deal for June - autoblog.com</td>
-      <td><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBZcVJLMFJaY1ZQVnVmRzc0TkZuYm1pX2NZYVIySnZtV2l4aWZFRW5NMGxlNHowdFBXSWwwRXRTSFp1UnRmR2xlT0NVeTF4NUJxb2pBcEZndUp3S2twMnJVMUFLRlJwUlI2dFpSMEpaXzZLbGN4?oc=5" target="_blank">Nissan Launches Killer Frontier Lease Deal for June</a>&nbsp;&nbsp;<font color="#6f6f6f">autoblog.com</font></td>
-      <td>-0.863</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan CEO denies eroding Renault partnership despite looser cross ties - Nikkei Asia</td>
-      <td><a href="https://news.google.com/rss/articles/CBMivAFBVV95cUxPU2tvaU5hdXNNZVgycEgxU21HTGhUSlFmRDYzSmNSWjQ3VDBKZkNyYVlRSjJaOFlDUlBEd2pxN3loR3RtbTVkMkR2UmhRV3l4dHNfTmt3Zi02SXNhSWVfSFhHd3NvWW9DZ0V3WHhZVER5eGhqRVhPNmVPVGhCV1pJUnpMVFVySGR4N3I5dEl4cG1aTHNhSjZJOWV6dS1VWkNjNWpYOTdjNlE1SmFGbW5raUFwbkd5OVJoZUFSbg?oc=5" target="_blank">Nissan CEO denies eroding Renault partnership despite looser cross ties</a>&nbsp;&nbsp;<font color="#6f6f6f">Nikkei Asia</font></td>
-      <td>-0.681</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
-      <td>Nissan</td>
-      <td>Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei - Reuters</td>
-      <td><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdFBNcktLVDFpM3U4SkVJQWVMRmJWaFhZQVRNbmNWM2lCR0hiRjI2TFV4Q1B3bngtbmt6aDY0R0FlZGd0OWVsZHlSOHhtSV9FaVdNbV9kRXprZEQtdTNXOGk5S0ZpNmM5TGRmc0J5cUI1aG45LVJHZ09fanoyWGVSSjNucE1DMG9PRjI0aXNCM04zNFJZS0g0aVpLbGtVdng0b2dIaG1oaTk1dFo1cXpyeDRRTUpiSy16ZkFhZ0lVMFZkN2s?oc=5" target="_blank">Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei</a>&nbsp;&nbsp;<font color="#6f6f6f">Reuters</font></td>
-      <td>0.000</td>
-      <td>0</td>
-      <td></td>
-      <td>RSS</td>
-    </tr>
-    <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
       <td>Nissan</td>
       <td>Nissan plans to reduce stake in Renault to invest in new vehicle development, report says - Automotive News</td>
       <td><a href="https://news.google.com/rss/articles/CBMijgFBVV95cUxPbU5aY3ZBcjF2cVhQdEFoX09jZ0QxR2FvVEo3d3hzRWJ1bFZMQUdjbHVlRmZTMkJfSlpXdHhiUGpjbENuR2pxeS1lT1IwbEdCN2xxcXFBRW5aZTZjQ18zX3ZmZEpTMW9mWHhxS1MzemMxYnJwdkxOU3lPNzQ0RjQ3a1daMDhCZzR0Q1VhRkFn?oc=5" target="_blank">Nissan plans to reduce stake in Renault to invest in new vehicle development, report says</a>&nbsp;&nbsp;<font color="#6f6f6f">Automotive News</font></td>
@@ -996,7 +1010,177 @@
       <td>RSS</td>
     </tr>
     <tr>
-      <td>2025-06-16 14:25</td>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei - Yahoo</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiigFBVV95cUxONUpKR3JZNzJoQ3lfU1d1bm1QaXlmRWFpWmxCUGxRYkRKMzNWam1Gc0VLUTdoMGdBbXVtUUFzSF9QZERqOHVtNHF3YTdGQk1MQmdBcXlCNF9DSXFBdkM4Z3JvaWZTdW0zU0hieVNCdjkzdVVFbUNjS0dZTTc4YngxbHVFVXYyUGtYLVE?oc=5" target="_blank">Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info) - Seeking Alpha</td>
+      <td><a href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPcXhiTzlGanh4dWV3YzltaHEtVXB4bVlFaXY5dnBTUUluWGl0eEpWUHpLMTdIZTVLc3ZkN0VBUjI1Z2hTeUUzdTRGSW45VFpvZWYwUkx1WkFCR3hJN0lubXhBUkhLOXEzZkN1RHFPbklLakFwZHV4emwwbUdReGl0ckg3V3hJSFNETjVpWVd3UG1uLS1vNXcxQTdtdEZyb19rNmlhbHdJS0RTbnBlRE9V?oc=5" target="_blank">Nissan to cut stake in Renault by 5% for new vehicle development - report (NSANY:Pink Limited Info)</a>&nbsp;&nbsp;<font color="#6f6f6f">Seeking Alpha</font></td>
+      <td>-0.718</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan (NSANF) Plans to Decrease Its Stake in Renault | NSANF Stock News - GuruFocus</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNWUwYi1FR08xNk40b3JVaHR4WmlZRThxV1J5eFVDTEdrcjRMT0FGY0puVVRiMHVrWi1vd2hFUlBSZEJXYlJmSTVpcmc2NEh0aWc0ODcyU1ktbjRwSmJibWxxLS1sLVdraEdBUWZydW9MdlRJbmRGSHlJYWxqM2t0ZU9JbmVVTG9VZEF0SzJ2Wlo2dGVEYk5zWnZISG1TeGhad1JlQXhJUGVhWm8?oc=5" target="_blank">Nissan (NSANF) Plans to Decrease Its Stake in Renault | NSANF Stock News</a>&nbsp;&nbsp;<font color="#6f6f6f">GuruFocus</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan plans to cut stake in Renault to 10%, looks to raise $640 mn: CEO - Business Standard</td>
+      <td><a href="https://news.google.com/rss/articles/CBMizgFBVV95cUxOMnVsWGxrZDUweWNZWXZtdDlTTGpGLUVVR1pwZFBfYlliNkpNQjVqT0V3X0RiRGEtTXNFLThLX25FdXcyMlNlVWs5WWhVNTVCRGtvemhPYWs0aVd4bGdxU28yei0xTU5GRkVfcnpVTzZpQV9CaXF3UUxUcTR3TFFBdkVVTUpkVk1xY2VxdmxNOExkaXFhWWluMWE5NkxVLWFWak1TRDZ3YnFzQlg1cV95U0hzdTY0eENVQ3JpUFlVX0NDQ3VVVkhhZzc0QmZ1d9IB0wFBVV95cUxPNGwwS1RwYndFbzh5Z1JXUVRFOXZIUG9URTJPOTlYU2I2cVdBUFprd2pMMGgyZ0RHZGFhblcydnNqYU41YnI2MlE2bkxoejBGSnhidzVrWXJrazlWMDBvczJaMTRhVURiRGM4QzdSMjRsWEY2ekxIanRaTWdPVXNkM1ZEdXYwQmhWYUZsaWthd3NCYUFZVm9fVDBSTTFDdFlSVld2V1hOMFliOTJsY2FGUF8xZUY3alNVNmZmYkxvYTRfdG5QdFVHcFZKc2dtTzlQQUxB?oc=5" target="_blank">Nissan plans to cut stake in Renault to 10%, looks to raise $640 mn: CEO</a>&nbsp;&nbsp;<font color="#6f6f6f">Business Standard</font></td>
+      <td>-0.494</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan Launches Killer Frontier Lease Deal for June - autoblog.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMidEFVX3lxTFBZcVJLMFJaY1ZQVnVmRzc0TkZuYm1pX2NZYVIySnZtV2l4aWZFRW5NMGxlNHowdFBXSWwwRXRTSFp1UnRmR2xlT0NVeTF4NUJxb2pBcEZndUp3S2twMnJVMUFLRlJwUlI2dFpSMEpaXzZLbGN4?oc=5" target="_blank">Nissan Launches Killer Frontier Lease Deal for June</a>&nbsp;&nbsp;<font color="#6f6f6f">autoblog.com</font></td>
+      <td>-0.863</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan's new EV looks like a hit in China, with nearly 400 miles of range and a $17,000 price tag - Electrek</td>
+      <td><a href="https://news.google.com/rss/articles/CBMilgFBVV95cUxQSFE5MVFyN1Q5U2dIendORzU0QlN4NUhUU1ZMNXIwUk5NN3FsWGFJRzRmMHgzV0lObGZueWMxdWZRZk5reXpEdk04bUxaT2JvUVl5RURmZy1lNHgwOG85cnNXc0dTUmpLMlMtNXRtOGdPU2ZyU2RKQUpCak5uNkFqaGdndHQ5NzR4dXVobVNuWVl4Z3c3Z2c?oc=5" target="_blank">Nissan's new EV looks like a hit in China, with nearly 400 miles of range and a $17,000 price tag</a>&nbsp;&nbsp;<font color="#6f6f6f">Electrek</font></td>
+      <td>0.612</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei - Reuters</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdFBNcktLVDFpM3U4SkVJQWVMRmJWaFhZQVRNbmNWM2lCR0hiRjI2TFV4Q1B3bngtbmt6aDY0R0FlZGd0OWVsZHlSOHhtSV9FaVdNbV9kRXprZEQtdTNXOGk5S0ZpNmM5TGRmc0J5cUI1aG45LVJHZ09fanoyWGVSSjNucE1DMG9PRjI0aXNCM04zNFJZS0g0aVpLbGtVdng0b2dIaG1oaTk1dFo1cXpyeDRRTUpiSy16ZkFhZ0lVMFZkN2s?oc=5" target="_blank">Nissan plans to reduce stake in Renault, CEO Espinosa tells Nikkei</a>&nbsp;&nbsp;<font color="#6f6f6f">Reuters</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan N7 secures over 20,000 orders in 50 days - CarNewsChina.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZWcxYjhGWWZtNF9GMEFuX0JtYklrbkF5VmVQdVNENlpSSlVJT2cyR09LNkE2aHRBLWtMaE9LblRXbnhCeUdDamRwOW1pNnh6QzVzdWVudF8xeXBCZlA1Xy1tUVN0SDVUQXoyeEpKajBWT3JLTHBIWUNRTURNeDJ2MWZYeENPdHlGZ180?oc=5" target="_blank">Nissan N7 secures over 20,000 orders in 50 days</a>&nbsp;&nbsp;<font color="#6f6f6f">CarNewsChina.com</font></td>
+      <td>0.557</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Nissan</td>
+      <td>Nissan Formula E Team signs Pulling to simulator and testing role - RACER</td>
+      <td><a href="https://news.google.com/rss/articles/CBMimgFBVV95cUxQVE54SDcwV1RsS2g1dFY2VXJPYkJvcVl1dDlXR2QyanAyNmF3VVZFOGxmbzg2U2U1YW1zajFyUlZ2OUE1OFNHcG93NjJ6LTlMTjRVRzNkcm4xVE44NkpCMUttMEl6TjRXWG5RMVEtak9pR21oMDFxTTgwalZYUGhhZkZ1V25KNWJqNEJSaVNQMUVDVkdaQU9KaXhB?oc=5" target="_blank">Nissan Formula E Team signs Pulling to simulator and testing role</a>&nbsp;&nbsp;<font color="#6f6f6f">RACER</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi Said In Advanced Talks To Buy Aethon For $8 Billion - Bloomberg News - marketscreener.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi-AFBVV95cUxQNGxUNjNvLXlqaFU1dXpzUHFpUkczb1JKc0hQaHBsYTNRMElVLTlnWG9aZE5FYnAzcHdhVlJRM1ZJc1NaLTBHQVNtdGlkVHEzTkFJNkRIUnhrSkdoSkRTV0tOQXRtelNJU0ZBNEJnb2dSbHFyejRQZENJd1RnUmR4Ri13WXRHQlpnbzFPZG90bnFPcUYyUVk5ZHBxWi1LbUhwajUtQjZOR2VkSlctT2Y3a1E3ZXpFdFh2ZmxnS0U3ZDFrbnFrVVNwRm1lN01aeGZoTTZMa0hNUzRONmFTZmh5bl81Tjltb0tRMmROM05VWFNuZnV6VFR5ag?oc=5" target="_blank">Mitsubishi Said In Advanced Talks To Buy Aethon For $8 Billion - Bloomberg News</a>&nbsp;&nbsp;<font color="#6f6f6f">marketscreener.com</font></td>
+      <td>0.459</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi Corp in talks for $8 billion US shale acquisition, source says By Reuters - Investing.com Australia</td>
+      <td><a href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPU1FDeDRMOHk0VUlWVXBYNWpQNFlheXhOQ0c2ckh3TXNjWktfb1hLSkFXMEo5S0sySGRGdGNudFNUNUtFRnRRZWp3MzZXeEtiMjdhNnBzWjNFUnA2UzBybk9ZV1dfZy1QOU1FOEdxV2h1eFRLTHkxMnpFVFc3Sno0dl9kemdYRGpPcXVoMmxlaG56LUo2VS1SUkFsS3FteHAyVDRzc3FTekEzZWZNUDNqekN1cUk2SERacFRhZ3Z4Q0lscHpvakE?oc=5" target="_blank">Mitsubishi Corp in talks for $8 billion US shale acquisition, source says By Reuters</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com Australia</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi Said in Advanced Talks to Buy Aethon for $8 Billion - Bloomberg.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMisgFBVV95cUxObG5EemFEdzJ3XzI4RGYzWHYwOHZBX3cyVHVkbWVUQk1JeDhjWWs5YktTcG5BSlNjTDQ5YXlYTzhKajBFeGYxckJEVXhzV09qaDBVOUtqR0JLMnpyQU9FSnBpTTAtMl9FamJRbGJxZDhBUm1FN2lNSlNDbEp4TlJHZzV1cEE5em51YnVRR0VJT2c5cEpISC1CTlVHYldwOTA3YjQyUmdFN2FlTTlWV01Xam9B?oc=5" target="_blank">Mitsubishi Said in Advanced Talks to Buy Aethon for $8 Billion</a>&nbsp;&nbsp;<font color="#6f6f6f">Bloomberg.com</font></td>
+      <td>0.459</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi Corp in talks for $8 billion US shale acquisition, source says - Yahoo Finance</td>
+      <td><a href="https://news.google.com/rss/articles/CBMigwFBVV95cUxQUkNlX3NYRVlYR29kdF9yQXZUVm5EdEJKYzBDX2xOemtoYXVfN3ljVWlsNWMwV1cyM05uNFk1Y1V2eFVCcTZrSXA5bnQ4Zzljd0lGbmtqWXowTFhqcU1qVU80RWFaQkkyV0NXUk1jaGROZHhDWkczUFZ4Ni1BcWxYUXZVVQ?oc=5" target="_blank">Mitsubishi Corp in talks for $8 billion US shale acquisition, source says</a>&nbsp;&nbsp;<font color="#6f6f6f">Yahoo Finance</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi Announced A Battery Swap Program For EV Trucks In Japan So Why Are So Many Companies Against Battery-Swapping? - The Autopian</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi4wFBVV95cUxPckVYZmlNNnJkRUFtSW1qQWUzcHFoUmp2NmstQ2lUYmMtYmt3Qmxkb2ZFZTFVZGRINWExZUU0WWxsU1RPUVA0bDRFcldNLXhyb3JBeTczUlFsVlVtbm1VRURFMGFKWlExelJOaTNrMGpWbUtwU05oSUhDWTlma2dXaVlpb0hMMXVfV2hvVVphZ0JCdGd5U243WXpFWWROZjFVX3E1ckVraks2Wl9DaWpZZXBCVi1xVFl2ZXR2b3lyTnNNUDJWMU82ZHQxZVhsWkpRVFV1NTkxLXRKMi00bjU2ZE1lVQ?oc=5" target="_blank">Mitsubishi Announced A Battery Swap Program For EV Trucks In Japan So Why Are So Many Companies Against Battery-Swapping?</a>&nbsp;&nbsp;<font color="#6f6f6f">The Autopian</font></td>
+      <td>0.000</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Yates Mitsubishi drive economic growth in Goodyear with new dealership - AZ Big Media</td>
+      <td><a href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOVkI3eXZLdzNjaG16WHhOdWMybmJaZE9jN3pJYTE5WGpKVVk1VkZua0o3RUxJV3RCWk1VN1JWUjdNZ3RiUUpVRFZMVjd6TTRjRXdrYktoVEg3RjlUZHRtcHh4bTAtU3BONGVDRElOZ2VpeloxU2liVVFiLUhxeE5MMlBTOEJEZWZKeExwZ0tVRllOZnJGWU1XYjZsX1pncjhRWC00ZG10dw?oc=5" target="_blank">Yates Mitsubishi drive economic growth in Goodyear with new dealership</a>&nbsp;&nbsp;<font color="#6f6f6f">AZ Big Media</font></td>
+      <td>0.637</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>Mitsubishi reportedly in talks to buy Aethon Energy US assets for $8 billion - Investing.com</td>
+      <td><a href="https://news.google.com/rss/articles/CBMizAFBVV95cUxNdVh2MEJtb0lkbnl1RmtyLWlwY1poTTlSQkc0czJLSEFwS3R3RmUta2I1Y2RZVl90dGhXclpPM3JaU0hKclptZ0V2XzZmVVY4R0Zia041WkYxTUg0aEstazhlTWRnUUpkdUgxRzl4V1dSSkpGQW9YTEo5MDIzbTNwNk1idUt2RUpNc0Iyd2xqZHREQUlsZmRqNlRfX1hVbnNOVlJBSzNLN1dZckJSZ3ZpMTdaSEpMcFpyZlRHQk4wVWlobkJMODhJaktUeHY?oc=5" target="_blank">Mitsubishi reportedly in talks to buy Aethon Energy US assets for $8 billion</a>&nbsp;&nbsp;<font color="#6f6f6f">Investing.com</font></td>
+      <td>0.681</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
+      <td>Mitsubishi</td>
+      <td>50% Hydrogen Blend Testing Successfully Completed at Georgia Power’s Plant McDonough-Atkinson - Business Wire</td>
+      <td><a href="https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR0w2bnpmT3lxZTNqUm16WFlTdWhqOHYtbXBkT0llek1QTmp5c195dmxVWXIyc2hNTWx0aXowME1wOTZjbFNtb3J1bm1maFFuNGFORWdHdmNzSzZLcDA4WFJyZlhDTlBXVDB0aHAxenpEMEJBdnEzUDh4X1E5Ymx2NVI0TW1aOTRkUmFzSWNlNl9kVjVEc21uNFRUQ0pXRWdXU1c3RHQ0M3plS1dNWHFTd1p5aUQyNTJpeVJCVWs5Ny1NRl9uWC1UbFZJRXE3dmk5YmNuc185SGg1UTEtZjRUcG5R?oc=5" target="_blank">50% Hydrogen Blend Testing Successfully Completed at Georgia Power’s Plant McDonough-Atkinson</a>&nbsp;&nbsp;<font color="#6f6f6f">Business Wire</font></td>
+      <td>0.751</td>
+      <td>0</td>
+      <td></td>
+      <td>RSS</td>
+    </tr>
+    <tr>
+      <td>2025-06-16 18:15</td>
       <td>Mitsubishi</td>
       <td>Mitsubishi Unveils Fast Battery Swap Network in Tokyo - WebProNews</td>
       <td><a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVWtxUTZNTXozYUlPNXF3VGRWdG1weDQtR2tZN2VSMU5fcDBBT0hXbmxPbmlVekM3dG9fOEs5d3o0NGY3TnYtX1ZTbU1mdG5aX1Y2a3hyWXpYOFlWMUR4SVdBTTVvdWcyX3gyYlhMdWhHLVAxbDRuMm11bEdIS2dOSHdKX0JxbXlQ?oc=5" target="_blank">Mitsubishi Unveils Fast Battery Swap Network in Tokyo</a>&nbsp;&nbsp;<font color="#6f6f6f">WebProNews</font></td>
@@ -1014,7 +1198,7 @@
     </div>
     <div class="thank-you" id="thank-you-msg">Thank you for your feedback!</div>
     <p style="font-size:12px; color:gray; text-align:right; margin-top:40px;">
-    Last updated: 2025-06-16 02:24 PM
+    Last updated: 2025-06-16 06:15 PM
     </p>
 
     <script>
