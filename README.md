@@ -42,19 +42,15 @@ Daily Automation & Logging
 
 Automatically pulls, filters, logs and updates CSV/HTML files — this is automation with data intelligence.
 
-High Level Design 
 
-image-20250514-192017.png
  
 
-call me hand Help Needed 
-
-Migrate code from Colab virtual machine and run in TT environment 
+Next : 
+Migrate code from Colab virtual machine 
 
 Replace facebook/bart-large-cnn with OpenAI 
 
-Replace GoogleDrive with TT Sharepoint- OneDrive 
-
+Replace GoogleDrive with Azure
  
 
 package Upcoming 
